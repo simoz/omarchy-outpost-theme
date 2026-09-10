@@ -53,3 +53,6 @@ AGENTS.md
 .graphifyignore
 .graphifyinclude
 graphify-out/
+
+# Local image-generation references; not distributed with the theme.
+/originals/
