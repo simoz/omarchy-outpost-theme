@@ -1,5 +1,7 @@
 # Outpost · Omarchy 4
 
+<img src="docs/branding/logo.png" alt="Outpost robot" width="160">
+
 A pixel art theme for Omarchy, featuring retrofuturistic outposts, vast natural landscapes, and quiet robot companions.
 
 [![Forest outpost wallpaper](docs/previews/01-forest.jpg)](preview.png)
