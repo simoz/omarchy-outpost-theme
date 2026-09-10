@@ -2,7 +2,7 @@
 
 <img src="docs/branding/logo.png" alt="Outpost robot" width="160">
 
-A pixel art theme for Omarchy, featuring retrofuturistic outposts, vast natural landscapes, and quiet robot companions.
+A pixel art theme for Omarchy inspired by remote outposts, wild landscapes, and life alongside robots.
 
 [![Forest outpost wallpaper](docs/previews/01-forest.jpg)](preview.png)
 
@@ -31,6 +31,18 @@ omarchy theme install https://github.com/simoz/omarchy-outpost-theme
 
 To switch back, select your previous theme from Omarchy's theme menu.
 
+## Unlock screen
+
+![Outpost boot unlock preview](preview-unlock.png)
+
+Select **Style → Unlock → Outpost** to use the robot at boot. `unlock.png` has a transparent background. This preview is composed using Omarchy’s Plymouth assets and layout; it is not a screenshot from a running system.
+
+## Shell
+
+Petroleum surfaces, ivory text and bronze borders carry through the bar, menus, launcher, notifications and authentication dialogs. Selected menu rows use a solid blue-green background. `shell.toml` defines the appearance; personal settings in `~/.config/omarchy/shell.toml` take precedence.
+
+The session lock uses the current wallpaper with Omarchy’s built-in blur, an opaque petroleum password field and bronze borders. The robot belongs to the separate boot unlock screen.
+
 ## Desktop previews
 
 The cover shows the wallpaper, not a desktop screenshot. Actual desktop, terminal, menu and lock-screen screenshots will be added after testing on Omarchy 4.
@@ -58,13 +70,13 @@ Opaque-color contrast: primary text 11.51:1 on the background; primary text 5.64
 
 ## Compatibility
 
-The theme uses the Omarchy 4 central palette format. Omarchy generates application configurations from its [official templates](https://github.com/omacom/omarchy/tree/quattro/default/themed), so separate configuration copies for each application are unnecessary. The palette is still proposed; appearance in a live Omarchy session has not been verified.
+The theme uses the Omarchy 4 central palette format. Omarchy generates application configurations from its [official templates](https://github.com/omacom/omarchy/tree/quattro/default/themed), so separate configuration copies for each application are unnecessary. The included `shell.toml` customizes the shared shell surfaces. The palette is still proposed; appearance in a live Omarchy session has not been verified.
 
 Run `python3 scripts/check_theme.py` with Python 3.11+ and Pillow to check contrast, image dimensions, checksums and documentation links. Optionally pass a directory of Omarchy templates to check substitution and JSON/TOML parsing.
 
 ## Image credits
 
-Artwork created for Outpost with OpenAI image generation. Wallpapers are 3840 × 2160, with no post-generation upscaling; gallery previews are reduced copies.
+Artwork created for Outpost with OpenAI image generation. Wallpapers are 3840 × 2160, with no post-generation upscaling; gallery previews are reduced copies. The unlock preview uses UI assets from [Omarchy](https://github.com/omacom/omarchy/tree/quattro/default/plymouth).
 
 ## License
 

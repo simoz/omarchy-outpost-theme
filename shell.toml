@@ -1,0 +1,130 @@
+# Outpost shell appearance for Omarchy 4.
+# Colors match colors.toml; personal layout and font settings remain machine-level.
+
+[bar]
+background = "#14282d"
+background-alpha = 1.0
+text = "#e8dfc4"
+active = "#d78f79"
+scale-with-font = true
+size-horizontal = 26
+size-vertical = 28
+
+[hyprland]
+active-border = ""
+active-border-foreground = ""
+
+[controls]
+normal-color = "#e8dfc4"
+normal-fill-alpha = 0.04
+normal-border = "#e8dfc4"
+normal-border-width = 1
+normal-border-alpha = 0.4
+hover-cursor-color = "#e8dfc4"
+hover-cursor-fill-alpha = 0.08
+hover-cursor-border = "#e8dfc4"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.25
+focus-color = "#e8dfc4"
+focus-fill-alpha = 0.08
+focus-border = "#d3ae78"
+focus-border-width = 1
+focus-border-alpha = 1.0
+selected-color = "#d3ae78"
+selected-fill-alpha = 0.18
+selected-border = "#e8dfc4"
+selected-border-width = 0
+selected-border-alpha = 1.0
+pressed-fill-alpha = 0.22
+selection-fill-alpha = 0.35
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+
+[font]
+base-size = 12
+
+[popups]
+background = "#14282d"
+background-alpha = 1.0
+text = "#e8dfc4"
+border = "#d3ae78"
+border-alpha = 1.0
+
+[tooltip]
+background = "#14282d"
+background-alpha = 1.0
+text = "#e8dfc4"
+border = "#d3ae78"
+border-alpha = 1.0
+
+[notifications]
+background = "#14282d"
+background-alpha = 1.0
+text = "#e8dfc4"
+border = "#d3ae78"
+border-alpha = 1.0
+countdown = "#d3ae78"
+
+[launcher]
+background = "#14282d"
+background-alpha = 1.0
+text = "#e8dfc4"
+border = "#d3ae78"
+border-alpha = 1.0
+scrim = "#14282d"
+scrim-alpha = 0.5
+selected-background = "#3d5960"
+selected-background-alpha = 1.0
+selected-text = "#e8dfc4"
+selected-border = "#d3ae78"
+selected-border-alpha = 1.0
+
+[menu]
+background = "#14282d"
+background-alpha = 1.0
+text = "#e8dfc4"
+border = "#d3ae78"
+border-alpha = 1.0
+scrim = "#14282d"
+scrim-alpha = 0.5
+selected-background = "#3d5960"
+selected-background-alpha = 1.0
+selected-text = "#e8dfc4"
+selected-border = "#d3ae78"
+selected-border-alpha = 1.0
+
+[polkit]
+background = "#14282d"
+background-alpha = 1.0
+text = "#e8dfc4"
+text-error = "#d78f79"
+border = "#d3ae78"
+border-error = "#d78f79"
+border-alpha = 1.0
+scrim = "#14282d"
+scrim-alpha = 0.5
+accent = "#d3ae78"
+
+[lock]
+background = "#14282d"
+background-alpha = 1.0
+text = "#e8dfc4"
+placeholder = "#a1afa9"
+text-error = "#d78f79"
+border = "#d3ae78"
+border-active = "#d3ae78"
+border-error = "#d78f79"
+border-alpha = 1.0
+selection = "#3d5960"
+selection-alpha = 1.0
+
+[image-picker]
+scrim = "#14282d"
+scrim-alpha = 0.5
+text = "#e8dfc4"
+selected-border = "#d3ae78"
+selected-border-alpha = 1.0
+unselected-border = "#e8dfc4"
+unselected-border-alpha = 0.28
