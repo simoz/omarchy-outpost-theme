@@ -33,9 +33,11 @@ To switch back, select your previous theme from Omarchy's theme menu.
 
 ## Unlock screen
 
-![Outpost unlock concept with the three original robot designs](docs/branding/unlock-three-robots-preview.png)
+![Outpost unlock artwork with the three original robots](unlock.png)
 
-This generated concept shows the three Outpost robots in an unlock-screen layout; it is not a screenshot from a running system. The current `unlock.png` still contains the single robot with a transparent background. Select **Style → Unlock → Outpost** to apply that boot artwork on a system configured with Plymouth.
+The boot unlock artwork features the three original Outpost robots on a transparent background. Select **Style → Unlock → Outpost** to apply it on a system configured with Plymouth. Plymouth draws the password prompt separately.
+
+[Unlock layout concept](docs/branding/unlock-three-robots-preview.png) (illustration, not a live screenshot).
 
 ## About
 
