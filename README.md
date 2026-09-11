@@ -4,7 +4,7 @@
 
 A pixel art theme for Omarchy inspired by remote outposts, wild landscapes, and life alongside robots.
 
-[![Forest outpost wallpaper](docs/previews/01-forest.jpg)](preview.png)
+[![Outpost theme on Omarchy with an editor, terminal, btop, and file manager](docs/screenshots/hero.webp)](docs/screenshots/hero.webp)
 
 ## Backgrounds
 
@@ -19,7 +19,7 @@ Twelve wallpapers, all 3840 × 2160. Click a preview to open the full-resolution
 
 ## Inspiration
 
-Weathered retrofuturistic architecture frames vast open landscapes. Small maintenance robots provide scale, with petroleum shadows, bronze metal and ivory light shared across ten biomes and two urban landscapes. The palette interprets these common elements for the interface and stays fixed when the wallpaper changes.
+Weathered retrofuturistic structures frame vast, open landscapes, while small maintenance robots lend a sense of scale. Petroleum shadows, bronze metal, and ivory light tie together ten biomes and two urban settings. The interface palette draws from these shared tones and remains consistent as wallpapers change.
 
 ## Installation
 
@@ -75,7 +75,13 @@ The session lock uses the current wallpaper with Omarchy’s built-in blur, an o
 
 ## Desktop previews
 
-The cover shows the wallpaper, not a desktop screenshot. Actual desktop, terminal, menu and lock-screen screenshots will be added after testing on Omarchy 4.
+Click a screenshot to view it at full size. Captured on Omarchy 4.0.2-1.
+
+| Desktop | Terminal |
+| --- | --- |
+| [![Outpost desktop with the forest wallpaper](docs/screenshots/desktop.webp)](docs/screenshots/desktop.webp) | [![Transparent terminal with the Outpost color palette](docs/screenshots/terminal.webp)](docs/screenshots/terminal.webp) |
+| **Omarchy menu** | **Lock screen** |
+| [![Omarchy menu with bronze borders and petroleum surfaces](docs/screenshots/menu.webp)](docs/screenshots/menu.webp) | [![Outpost lock screen with a blurred wallpaper and bronze password-field border](docs/screenshots/lock.webp)](docs/screenshots/lock.webp) |
 
 ## Palette
 
@@ -100,7 +106,7 @@ Opaque-color contrast: primary text 11.51:1 on the background; primary text 5.64
 
 ## Compatibility
 
-The theme uses the Omarchy 4 central palette format. Omarchy generates application configurations from its [official templates](https://github.com/omacom/omarchy/tree/quattro/default/themed), so separate configuration copies for each application are unnecessary. The included `shell.toml` customizes the shared shell surfaces. The palette is still proposed; appearance in a live Omarchy session has not been verified.
+The theme uses the Omarchy 4 central palette format. Omarchy generates application configurations from its [official templates](https://github.com/omacom/omarchy/tree/quattro/default/themed), so separate configuration copies for each application are unnecessary. The included `shell.toml` customizes the shared shell surfaces. The screenshots above show the theme running on Omarchy 4.0.2-1.
 
 Run `python3 scripts/check_theme.py` with Python 3.11+ and Pillow to check contrast, image dimensions, checksums and documentation links. Optionally pass a directory of Omarchy templates to check substitution and JSON/TOML parsing.
 
