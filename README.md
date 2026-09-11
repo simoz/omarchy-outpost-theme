@@ -33,9 +33,9 @@ To switch back, select your previous theme from Omarchy's theme menu.
 
 ## Unlock screen
 
-![Outpost boot unlock preview](preview-unlock.png)
+![Outpost unlock concept with the three original robot designs](docs/branding/unlock-three-robots-preview.png)
 
-Select **Style → Unlock → Outpost** to use the robot at boot. `unlock.png` has a transparent background. This preview is composed using Omarchy’s Plymouth assets and layout; it is not a screenshot from a running system.
+This generated concept shows the three Outpost robots in an unlock-screen layout; it is not a screenshot from a running system. The current `unlock.png` still contains the single robot with a transparent background. Select **Style → Unlock → Outpost** to apply that boot artwork on a system configured with Plymouth.
 
 ## About
 
@@ -100,19 +100,15 @@ Click a screenshot to view it at full size. Captured on Omarchy 4.0.2-1.
 
 `colors.toml` contains the proposed palette, including bright terminal variants. `icons.theme` selects `Yaru-wartybrown`.
 
-The volcanic scene is the most distant visually, with gray and lilac terrain, but petroleum metal, bronze highlights and turquoise water connect it to the palette. Tundra is cooler; desert and steppe are warmer. None currently appears to need recoloring or exclusion.
-
 Opaque-color contrast: primary text 11.51:1 on the background; primary text 5.64:1 on selection; secondary text 5.12:1 on lighter surfaces. The eight semantic terminal colors exceed 4.5:1 on the main background. Transparency and application customizations may change these results.
 
 ## Compatibility
 
 The theme uses the Omarchy 4 central palette format. Omarchy generates application configurations from its [official templates](https://github.com/omacom/omarchy/tree/quattro/default/themed), so separate configuration copies for each application are unnecessary. The included `shell.toml` customizes the shared shell surfaces. The screenshots above show the theme running on Omarchy 4.0.2-1.
 
-Run `python3 scripts/check_theme.py` with Python 3.11+ and Pillow to check contrast, image dimensions, checksums and documentation links. Optionally pass a directory of Omarchy templates to check substitution and JSON/TOML parsing.
-
 ## Image credits
 
-Artwork created for Outpost with OpenAI image generation. Wallpapers are 3840 × 2160, with no post-generation upscaling; gallery previews are reduced copies. The unlock preview uses UI assets from [Omarchy](https://github.com/omacom/omarchy/tree/quattro/default/plymouth).
+Artwork created for Outpost with OpenAI image generation. Wallpapers are 3840 × 2160, with no post-generation upscaling; gallery previews are reduced copies. The generated unlock concept references the layout of [Omarchy’s Plymouth theme](https://github.com/omacom/omarchy/tree/quattro/default/plymouth).
 
 ## License
 
