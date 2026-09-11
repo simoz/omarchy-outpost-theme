@@ -37,9 +37,24 @@ To switch back, select your previous theme from Omarchy's theme menu.
 
 Select **Style → Unlock → Outpost** to use the robot at boot. `unlock.png` has a transparent background. This preview is composed using Omarchy’s Plymouth assets and layout; it is not a screenshot from a running system.
 
+## About
+
+[The optional About artwork](about.txt) shows a block-art robot with **NO SIGNAL. STILL HERE.** beneath it.
+
+After installing or updating the theme, run these commands on your Omarchy machine. If you already have custom About artwork, save a copy of `~/.config/omarchy/branding/about.txt` first; the copy command replaces it.
+
+```sh
+mkdir -p ~/.config/omarchy/branding
+cp ~/.config/omarchy/themes/outpost/about.txt ~/.config/omarchy/branding/about.txt
+```
+
+Close and reopen **About** to see the change. This is a personal branding setting: selecting or updating Outpost does not copy the artwork automatically, and switching themes does not remove it. Repeat the copy command after updating the artwork.
+
+The artwork has not yet been tested in a live Omarchy session.
+
 ## Screensaver
 
-[The optional screensaver](screensaver.txt) pairs an ASCII Outpost robot with the wordmark and **NO SIGNAL. STILL HERE.** Omarchy supplies the animation effects.
+[The optional screensaver](screensaver.txt) pairs the same block-art robot used in About with the Outpost wordmark and **NO SIGNAL. STILL HERE.** Omarchy supplies the animation effects.
 
 After installing the theme, run these commands on your Omarchy machine to activate it. If you already have a custom screensaver, save a copy of `~/.config/omarchy/branding/screensaver.txt` first; the copy command replaces it.
 
