@@ -1,6 +1,6 @@
 # Outpost · Omarchy 4
 
-<img src="docs/branding/logo.png" alt="Outpost robot" width="160">
+<img src="docs/branding/logo.png" alt="Three distinct Outpost robot heads" width="480">
 
 A pixel art theme for Omarchy inspired by remote outposts, wild landscapes, and life alongside robots.
 
