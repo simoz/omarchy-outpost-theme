@@ -69,8 +69,6 @@ The artwork has not yet been tested in a live Omarchy session.
 
 Petroleum surfaces, ivory text and bronze borders carry through the bar, menus, launcher, notifications and authentication dialogs. Selected menu rows use a solid blue-green background. `shell.toml` defines the appearance; personal settings in `~/.config/omarchy/shell.toml` take precedence.
 
-The session lock uses the current wallpaper with Omarchy’s built-in blur, an opaque petroleum password field and bronze borders. The robot belongs to the separate boot unlock screen.
-
 ## Desktop previews
 
 Click a screenshot to view it at full size. Captured on Omarchy 4.0.2-1.
@@ -78,8 +76,8 @@ Click a screenshot to view it at full size. Captured on Omarchy 4.0.2-1.
 | Desktop | Terminal |
 | --- | --- |
 | [![Outpost desktop with the forest wallpaper](docs/screenshots/desktop.webp)](docs/screenshots/desktop.webp) | [![Transparent terminal with the Outpost color palette](docs/screenshots/terminal.webp)](docs/screenshots/terminal.webp) |
-| **Omarchy menu** | **Lock screen** |
-| [![Omarchy menu with bronze borders and petroleum surfaces](docs/screenshots/menu.webp)](docs/screenshots/menu.webp) | [![Outpost lock screen with a blurred wallpaper and bronze password-field border](docs/screenshots/lock.webp)](docs/screenshots/lock.webp) |
+| **Omarchy menu** | **About artwork** |
+| [![Omarchy menu with bronze borders and petroleum surfaces](docs/screenshots/menu.webp)](docs/screenshots/menu.webp) | [![Outpost About artwork](docs/branding/about-preview.svg)](docs/branding/about-preview.svg) |
 
 ## Palette
 
