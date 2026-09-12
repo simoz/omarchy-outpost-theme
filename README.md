@@ -21,6 +21,10 @@ Twelve wallpapers, all 3840 × 2160. Click a preview to open the full-resolution
 
 Weathered retrofuturistic structures frame vast, open landscapes, while small maintenance robots lend a sense of scale. Petroleum shadows, bronze metal, and ivory light tie together ten biomes and two urban settings. The interface palette draws from these shared tones and remains consistent as wallpapers change.
 
+## Related themes
+
+Outpost is the dark companion to [Haven](https://github.com/simoz/omarchy-haven-theme), a light theme of peaceful settlements, gardens and everyday robot life. Both share the same pixel art world, maintenance robots and palette of petroleum, bronze and ivory.
+
 ## Installation
 
 Once this repository has been published, run this command on your Omarchy 4 machine:
