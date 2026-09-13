@@ -11,7 +11,26 @@
       "file": "backgrounds/13-forest-night.png",
       "prompt_file": "docs/prompts/13-forest-night.txt",
       "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Forest wallpaper, visual and composition reference.\nPrimary request: create a night companion to this reference.\nScene: A vast forest canopy with winding rivers and a distant spherical watchtower; vine-covered industrial outpost on the left, tiny maintenance robot on its balcony.\nLighting and palette: True night with a deep petroleum and blue-green sky, very subdued ivory moonlight and only a few small warm bronze/amber windows. Broad quiet dark sky and landscape areas, layered shadows that still reveal terrain and structures. Sparse stars where clouds permit. Restrained contrast; no daylight, sunset glow, neon, giant bright moon or crushed solid-black landscape.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
-      "variant": "night"
+      "variant": "night",
+      "refinements": [
+        {
+          "reference": "originals/13-forest-night-v1.png",
+          "reference_sha256": "c61f7c09b0d1dd7bdee3af60734e764a9857a925251338687deafe2c1c95a8f3",
+          "reference_distribution": "Local intermediate image, excluded from the distributed theme. Regenerate with the initial prompt and original reference before applying this refinement.",
+          "style_references": [
+            {
+              "file": "backgrounds/20-tropical-archipelago-night.png",
+              "sha256": "7ecb5b0c0643078cc1afb14bf3d1e1cd31cb2fee01ef9623110c7dcb17ff4833",
+              "role": "Lighting intensity and warm robot-eye reference only."
+            }
+          ],
+          "prompt_file": "docs/prompts/13-forest-night-relight.txt",
+          "prompt": "Use case: lighting-weather.\nAsset type: Outpost nighttime desktop wallpaper refinement.\nInput images: Image 1 is the edit target (Forest — Night). Image 2 is the approved brighter tropical nighttime wallpaper, a reference ONLY for illumination strength, warm robot-eye light, readable shadows and pixel art finish. Do not copy its islands, scenery, architecture or composition.\nPrimary request: noticeably improve illumination of Image 1 to the readable nighttime level of Image 2 while preserving its scene. Make the tiny robot's existing eye/lens glow visibly warm ivory-amber, casting a small natural pool of light on its body and balcony floor and a delicate highlight on nearby railings. Illuminate a moderate selection of existing outpost windows on several levels, with a few small practical balcony or wall lamps where plausible. Make the outpost feel inhabited: more warm light points than the input, but leave most of the structure in shadow. Vary window brightness, keep glows localized and avoid lighting every window, decorative light strings or excessive bloom. Reveal weathered bronze pipes and foreground surfaces through localized warm light and cool moonlight.\nScene-specific lighting: Reveal layers of canopy, tree edges and winding rivers with cool moonlight. Add a few tiny warm windows to the distant existing tower.\nOverall light: stronger but gentle cool moonlight on landscape contours and cloud edges, distinct foreground/middle/distant layers, deep petroleum and blue-green shadows, small bronze/amber accents. Keep a clearly nocturnal scene with broad calm dark areas for desktop use. Make the improvement substantial enough to see landscape detail easily, like Image 2, without washing out the image. Do not simply lift blacks or add global gray haze. No daylight, dawn, sunset glow, neon, oversized eye, searchlight beam or blown highlights. Do not add a new visible moon if the target does not already have one.\nInvariants: preserve the exact wide framing, terrain, architecture, all existing objects and vegetation, and tiny robot identity, scale and position. Preserve crisp detailed pixel art. Change illumination only. No new characters, structures, text, logos, borders or collage.\nOutput: one native 3840 x 2160 PNG, landscape 16:9. No post-generation resizing, cropping or recoloring.",
+          "model": "gpt-image-2",
+          "quality": "high",
+          "requested_size": "3840x2160"
+        }
+      ]
     },
     {
       "name": "14-desert-night",
@@ -20,7 +39,26 @@
       "file": "backgrounds/14-desert-night.png",
       "prompt_file": "docs/prompts/14-desert-night.txt",
       "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Desert wallpaper, visual and composition reference.\nPrimary request: create a night companion to this reference.\nScene: Desert mesas and dunes, a distant spherical tower, industrial shelter on the right and a tiny maintenance robot on its balcony.\nLighting and palette: True night with a deep petroleum and blue-green sky, very subdued ivory moonlight and only a few small warm bronze/amber windows. Broad quiet dark sky and landscape areas, layered shadows that still reveal terrain and structures. Sparse stars where clouds permit. Restrained contrast; no daylight, sunset glow, neon, giant bright moon or crushed solid-black landscape.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
-      "variant": "night"
+      "variant": "night",
+      "refinements": [
+        {
+          "reference": "originals/14-desert-night-v1.png",
+          "reference_sha256": "b87899f1728660d25ce8f709408b93a53eef56f73a42458363badceb729408b9",
+          "reference_distribution": "Local intermediate image, excluded from the distributed theme. Regenerate with the initial prompt and original reference before applying this refinement.",
+          "style_references": [
+            {
+              "file": "backgrounds/20-tropical-archipelago-night.png",
+              "sha256": "7ecb5b0c0643078cc1afb14bf3d1e1cd31cb2fee01ef9623110c7dcb17ff4833",
+              "role": "Lighting intensity and warm robot-eye reference only."
+            }
+          ],
+          "prompt_file": "docs/prompts/14-desert-night-relight.txt",
+          "prompt": "Use case: lighting-weather.\nAsset type: Outpost nighttime desktop wallpaper refinement.\nInput images: Image 1 is the edit target (Desert — Night). Image 2 is the approved brighter tropical nighttime wallpaper, a reference ONLY for illumination strength, warm robot-eye light, readable shadows and pixel art finish. Do not copy its islands, scenery, architecture or composition.\nPrimary request: noticeably improve illumination of Image 1 to the readable nighttime level of Image 2 while preserving its scene. Make the tiny robot's existing eye/lens glow visibly warm ivory-amber, casting a small natural pool of light on its body and balcony floor and a delicate highlight on nearby railings. Illuminate a moderate selection of existing outpost windows on several levels, with a few small practical balcony or wall lamps where plausible. Make the outpost feel inhabited: more warm light points than the input, but leave most of the structure in shadow. Vary window brightness, keep glows localized and avoid lighting every window, decorative light strings or excessive bloom. Reveal weathered bronze pipes and foreground surfaces through localized warm light and cool moonlight.\nScene-specific lighting: Reveal dune crests, sand ripples and mesa edges with cool moonlight. Add a few tiny warm windows to the existing distant tower.\nOverall light: stronger but gentle cool moonlight on landscape contours and cloud edges, distinct foreground/middle/distant layers, deep petroleum and blue-green shadows, small bronze/amber accents. Keep a clearly nocturnal scene with broad calm dark areas for desktop use. Make the improvement substantial enough to see landscape detail easily, like Image 2, without washing out the image. Do not simply lift blacks or add global gray haze. No daylight, dawn, sunset glow, neon, oversized eye, searchlight beam or blown highlights. Do not add a new visible moon if the target does not already have one.\nInvariants: preserve the exact wide framing, terrain, architecture, all existing objects and vegetation, and tiny robot identity, scale and position. Preserve crisp detailed pixel art. Change illumination only. No new characters, structures, text, logos, borders or collage.\nOutput: one native 3840 x 2160 PNG, landscape 16:9. No post-generation resizing, cropping or recoloring.",
+          "model": "gpt-image-2",
+          "quality": "high",
+          "requested_size": "3840x2160"
+        }
+      ]
     },
     {
       "name": "15-mediterranean-night",
@@ -29,7 +67,26 @@
       "file": "backgrounds/15-mediterranean-night.png",
       "prompt_file": "docs/prompts/15-mediterranean-night.txt",
       "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Mediterranean wallpaper, visual and composition reference.\nPrimary request: create a night companion to this reference.\nScene: Mediterranean cliffs and bay, umbrella pines and olive trees, outpost on the left with a tiny robot, a spherical tower on the distant right headland.\nLighting and palette: True night with a deep petroleum and blue-green sky, very subdued ivory moonlight and only a few small warm bronze/amber windows. Broad quiet dark sky and landscape areas, layered shadows that still reveal terrain and structures. Sparse stars where clouds permit. Restrained contrast; no daylight, sunset glow, neon, giant bright moon or crushed solid-black landscape.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
-      "variant": "night"
+      "variant": "night",
+      "refinements": [
+        {
+          "reference": "originals/15-mediterranean-night-v1.png",
+          "reference_sha256": "fbae7feb08878d84cc8716bee65f4ffeb2a6ee7c9750f521dc3910db35d4be8b",
+          "reference_distribution": "Local intermediate image, excluded from the distributed theme. Regenerate with the initial prompt and original reference before applying this refinement.",
+          "style_references": [
+            {
+              "file": "backgrounds/20-tropical-archipelago-night.png",
+              "sha256": "7ecb5b0c0643078cc1afb14bf3d1e1cd31cb2fee01ef9623110c7dcb17ff4833",
+              "role": "Lighting intensity and warm robot-eye reference only."
+            }
+          ],
+          "prompt_file": "docs/prompts/15-mediterranean-night-relight.txt",
+          "prompt": "Use case: lighting-weather.\nAsset type: Outpost nighttime desktop wallpaper refinement.\nInput images: Image 1 is the edit target (Mediterranean — Night). Image 2 is the approved brighter tropical nighttime wallpaper, a reference ONLY for illumination strength, warm robot-eye light, readable shadows and pixel art finish. Do not copy its islands, scenery, architecture or composition.\nPrimary request: noticeably improve illumination of Image 1 to the readable nighttime level of Image 2 while preserving its scene. Make the tiny robot's existing eye/lens glow visibly warm ivory-amber, casting a small natural pool of light on its body and balcony floor and a delicate highlight on nearby railings. Illuminate a moderate selection of existing outpost windows on several levels, with a few small practical balcony or wall lamps where plausible. Make the outpost feel inhabited: more warm light points than the input, but leave most of the structure in shadow. Vary window brightness, keep glows localized and avoid lighting every window, decorative light strings or excessive bloom. Reveal weathered bronze pipes and foreground surfaces through localized warm light and cool moonlight.\nScene-specific lighting: Reveal limestone cliffs, pines and olive foliage with cool moonlight, and add subtle broken highlights on the bay. Preserve scattered distant coastal lights.\nOverall light: stronger but gentle cool moonlight on landscape contours and cloud edges, distinct foreground/middle/distant layers, deep petroleum and blue-green shadows, small bronze/amber accents. Keep a clearly nocturnal scene with broad calm dark areas for desktop use. Make the improvement substantial enough to see landscape detail easily, like Image 2, without washing out the image. Do not simply lift blacks or add global gray haze. No daylight, dawn, sunset glow, neon, oversized eye, searchlight beam or blown highlights. Do not add a new visible moon if the target does not already have one.\nInvariants: preserve the exact wide framing, terrain, architecture, all existing objects and vegetation, and tiny robot identity, scale and position. Preserve crisp detailed pixel art. Change illumination only. No new characters, structures, text, logos, borders or collage.\nOutput: one native 3840 x 2160 PNG, landscape 16:9. No post-generation resizing, cropping or recoloring.",
+          "model": "gpt-image-2",
+          "quality": "high",
+          "requested_size": "3840x2160"
+        }
+      ]
     },
     {
       "name": "16-tundra-night",
@@ -38,7 +95,26 @@
       "file": "backgrounds/16-tundra-night.png",
       "prompt_file": "docs/prompts/16-tundra-night.txt",
       "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Tundra wallpaper, visual and composition reference.\nPrimary request: create a night companion to this reference.\nScene: Snowy tundra and a frozen bay with broken ice shelves, distant mountain ranges, iced industrial outpost on the left with its tiny robot.\nLighting and palette: True night with a deep petroleum and blue-green sky, very subdued ivory moonlight and only a few small warm bronze/amber windows. Broad quiet dark sky and landscape areas, layered shadows that still reveal terrain and structures. Sparse stars where clouds permit. Restrained contrast; no daylight, sunset glow, neon, giant bright moon or crushed solid-black landscape.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
-      "variant": "night"
+      "variant": "night",
+      "refinements": [
+        {
+          "reference": "originals/16-tundra-night-v1.png",
+          "reference_sha256": "2117276fb28c3dcb79b214324e732d1567cfcccd8b9ac85648dde93e5144cdd5",
+          "reference_distribution": "Local intermediate image, excluded from the distributed theme. Regenerate with the initial prompt and original reference before applying this refinement.",
+          "style_references": [
+            {
+              "file": "backgrounds/20-tropical-archipelago-night.png",
+              "sha256": "7ecb5b0c0643078cc1afb14bf3d1e1cd31cb2fee01ef9623110c7dcb17ff4833",
+              "role": "Lighting intensity and warm robot-eye reference only."
+            }
+          ],
+          "prompt_file": "docs/prompts/16-tundra-night-relight.txt",
+          "prompt": "Use case: lighting-weather.\nAsset type: Outpost nighttime desktop wallpaper refinement.\nInput images: Image 1 is the edit target (Tundra — Night). Image 2 is the approved brighter tropical nighttime wallpaper, a reference ONLY for illumination strength, warm robot-eye light, readable shadows and pixel art finish. Do not copy its islands, scenery, architecture or composition.\nPrimary request: noticeably improve illumination of Image 1 to the readable nighttime level of Image 2 while preserving its scene. Make the tiny robot's existing eye/lens glow visibly warm ivory-amber, casting a small natural pool of light on its body and balcony floor and a delicate highlight on nearby railings. Illuminate a moderate selection of existing outpost windows on several levels, with a few small practical balcony or wall lamps where plausible. Make the outpost feel inhabited: more warm light points than the input, but leave most of the structure in shadow. Vary window brightness, keep glows localized and avoid lighting every window, decorative light strings or excessive bloom. Reveal weathered bronze pipes and foreground surfaces through localized warm light and cool moonlight.\nScene-specific lighting: Reveal ice shelves, snowy mountains and frozen bay with soft cool moonlight. Keep snow controlled rather than white or overexposed, and retain the existing moon.\nOverall light: stronger but gentle cool moonlight on landscape contours and cloud edges, distinct foreground/middle/distant layers, deep petroleum and blue-green shadows, small bronze/amber accents. Keep a clearly nocturnal scene with broad calm dark areas for desktop use. Make the improvement substantial enough to see landscape detail easily, like Image 2, without washing out the image. Do not simply lift blacks or add global gray haze. No daylight, dawn, sunset glow, neon, oversized eye, searchlight beam or blown highlights. Do not add a new visible moon if the target does not already have one.\nInvariants: preserve the exact wide framing, terrain, architecture, all existing objects and vegetation, and tiny robot identity, scale and position. Preserve crisp detailed pixel art. Change illumination only. No new characters, structures, text, logos, borders or collage.\nOutput: one native 3840 x 2160 PNG, landscape 16:9. No post-generation resizing, cropping or recoloring.",
+          "model": "gpt-image-2",
+          "quality": "high",
+          "requested_size": "3840x2160"
+        }
+      ]
     },
     {
       "name": "17-swamp-night",
@@ -47,7 +123,26 @@
       "file": "backgrounds/17-swamp-night.png",
       "prompt_file": "docs/prompts/17-swamp-night.txt",
       "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Swamp wallpaper, visual and composition reference.\nPrimary request: create a night companion to this reference.\nScene: A quiet misty swamp, still water and reeds, distant dome and stilt-supported outpost on the right with tiny maintenance robot.\nLighting and palette: True night with a deep petroleum and blue-green sky, very subdued ivory moonlight and only a few small warm bronze/amber windows. Broad quiet dark sky and landscape areas, layered shadows that still reveal terrain and structures. Sparse stars where clouds permit. Restrained contrast; no daylight, sunset glow, neon, giant bright moon or crushed solid-black landscape.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
-      "variant": "night"
+      "variant": "night",
+      "refinements": [
+        {
+          "reference": "originals/17-swamp-night-v1.png",
+          "reference_sha256": "9a7828761b5016490f2345733765d570d125236da8aff9e247c708139f38b0da",
+          "reference_distribution": "Local intermediate image, excluded from the distributed theme. Regenerate with the initial prompt and original reference before applying this refinement.",
+          "style_references": [
+            {
+              "file": "backgrounds/20-tropical-archipelago-night.png",
+              "sha256": "7ecb5b0c0643078cc1afb14bf3d1e1cd31cb2fee01ef9623110c7dcb17ff4833",
+              "role": "Lighting intensity and warm robot-eye reference only."
+            }
+          ],
+          "prompt_file": "docs/prompts/17-swamp-night-relight.txt",
+          "prompt": "Use case: lighting-weather.\nAsset type: Outpost nighttime desktop wallpaper refinement.\nInput images: Image 1 is the edit target (Swamp — Night). Image 2 is the approved brighter tropical nighttime wallpaper, a reference ONLY for illumination strength, warm robot-eye light, readable shadows and pixel art finish. Do not copy its islands, scenery, architecture or composition.\nPrimary request: noticeably improve illumination of Image 1 to the readable nighttime level of Image 2 while preserving its scene. Make the tiny robot's existing eye/lens glow visibly warm ivory-amber, casting a small natural pool of light on its body and balcony floor and a delicate highlight on nearby railings. Illuminate a moderate selection of existing outpost windows on several levels, with a few small practical balcony or wall lamps where plausible. Make the outpost feel inhabited: more warm light points than the input, but leave most of the structure in shadow. Vary window brightness, keep glows localized and avoid lighting every window, decorative light strings or excessive bloom. Reveal weathered bronze pipes and foreground surfaces through localized warm light and cool moonlight.\nScene-specific lighting: Reveal reeds, mist layers and the distant dome, with delicate moonlit water reflections. Enhance the existing hanging lamp and a few windows with small warm reflected glints on water. Retain the existing moon.\nOverall light: stronger but gentle cool moonlight on landscape contours and cloud edges, distinct foreground/middle/distant layers, deep petroleum and blue-green shadows, small bronze/amber accents. Keep a clearly nocturnal scene with broad calm dark areas for desktop use. Make the improvement substantial enough to see landscape detail easily, like Image 2, without washing out the image. Do not simply lift blacks or add global gray haze. No daylight, dawn, sunset glow, neon, oversized eye, searchlight beam or blown highlights. Do not add a new visible moon if the target does not already have one.\nInvariants: preserve the exact wide framing, terrain, architecture, all existing objects and vegetation, and tiny robot identity, scale and position. Preserve crisp detailed pixel art. Change illumination only. No new characters, structures, text, logos, borders or collage.\nOutput: one native 3840 x 2160 PNG, landscape 16:9. No post-generation resizing, cropping or recoloring.",
+          "model": "gpt-image-2",
+          "quality": "high",
+          "requested_size": "3840x2160"
+        }
+      ]
     },
     {
       "name": "18-volcanic-night",
@@ -56,7 +151,26 @@
       "file": "backgrounds/18-volcanic-night.png",
       "prompt_file": "docs/prompts/18-volcanic-night.txt",
       "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Volcanic wallpaper, visual and composition reference.\nPrimary request: create a night companion to this reference.\nScene: Basalt plain with steam vents and turquoise geothermal streams, distant volcanic mountains and a tall spherical tower, bronze-domed outpost on the left with tiny robot.\nLighting and palette: True night with a deep petroleum and blue-green sky, very subdued ivory moonlight and only a few small warm bronze/amber windows. Broad quiet dark sky and landscape areas, layered shadows that still reveal terrain and structures. Sparse stars where clouds permit. Restrained contrast; no daylight, sunset glow, neon, giant bright moon or crushed solid-black landscape.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
-      "variant": "night"
+      "variant": "night",
+      "refinements": [
+        {
+          "reference": "originals/18-volcanic-night-v1.png",
+          "reference_sha256": "92fc0606c7460572e1e6b048e0539135e2cccc1c262da13929dd61e4d4627e6c",
+          "reference_distribution": "Local intermediate image, excluded from the distributed theme. Regenerate with the initial prompt and original reference before applying this refinement.",
+          "style_references": [
+            {
+              "file": "backgrounds/20-tropical-archipelago-night.png",
+              "sha256": "7ecb5b0c0643078cc1afb14bf3d1e1cd31cb2fee01ef9623110c7dcb17ff4833",
+              "role": "Lighting intensity and warm robot-eye reference only."
+            }
+          ],
+          "prompt_file": "docs/prompts/18-volcanic-night-relight.txt",
+          "prompt": "Use case: lighting-weather.\nAsset type: Outpost nighttime desktop wallpaper refinement.\nInput images: Image 1 is the edit target (Volcanic — Night). Image 2 is the approved brighter tropical nighttime wallpaper, a reference ONLY for illumination strength, warm robot-eye light, readable shadows and pixel art finish. Do not copy its islands, scenery, architecture or composition.\nPrimary request: noticeably improve illumination of Image 1 to the readable nighttime level of Image 2 while preserving its scene. Make the tiny robot's existing eye/lens glow visibly warm ivory-amber, casting a small natural pool of light on its body and balcony floor and a delicate highlight on nearby railings. Illuminate a moderate selection of existing outpost windows on several levels, with a few small practical balcony or wall lamps where plausible. Make the outpost feel inhabited: more warm light points than the input, but leave most of the structure in shadow. Vary window brightness, keep glows localized and avoid lighting every window, decorative light strings or excessive bloom. Reveal weathered bronze pipes and foreground surfaces through localized warm light and cool moonlight.\nScene-specific lighting: Reveal basalt edges, steam plumes and geothermal stream contours with cool moonlight. Retain turquoise water in the petroleum palette, without turning streams into glowing neon or lava.\nOverall light: stronger but gentle cool moonlight on landscape contours and cloud edges, distinct foreground/middle/distant layers, deep petroleum and blue-green shadows, small bronze/amber accents. Keep a clearly nocturnal scene with broad calm dark areas for desktop use. Make the improvement substantial enough to see landscape detail easily, like Image 2, without washing out the image. Do not simply lift blacks or add global gray haze. No daylight, dawn, sunset glow, neon, oversized eye, searchlight beam or blown highlights. Do not add a new visible moon if the target does not already have one.\nInvariants: preserve the exact wide framing, terrain, architecture, all existing objects and vegetation, and tiny robot identity, scale and position. Preserve crisp detailed pixel art. Change illumination only. No new characters, structures, text, logos, borders or collage.\nOutput: one native 3840 x 2160 PNG, landscape 16:9. No post-generation resizing, cropping or recoloring.",
+          "model": "gpt-image-2",
+          "quality": "high",
+          "requested_size": "3840x2160"
+        }
+      ]
     },
     {
       "name": "19-steppe-night",
@@ -65,7 +179,26 @@
       "file": "backgrounds/19-steppe-night.png",
       "prompt_file": "docs/prompts/19-steppe-night.txt",
       "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Steppe wallpaper, visual and composition reference.\nPrimary request: create a night companion to this reference.\nScene: A vast grassland with elevated railway and small train, distant domed station, weathered outpost on the left with a tiny maintenance robot.\nLighting and palette: True night with a deep petroleum and blue-green sky, very subdued ivory moonlight and only a few small warm bronze/amber windows. Broad quiet dark sky and landscape areas, layered shadows that still reveal terrain and structures. Sparse stars where clouds permit. Restrained contrast; no daylight, sunset glow, neon, giant bright moon or crushed solid-black landscape.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
-      "variant": "night"
+      "variant": "night",
+      "refinements": [
+        {
+          "reference": "originals/19-steppe-night-v1.png",
+          "reference_sha256": "60e4fabc43b14219ee5462e8766656092221e7b75f21257601617d770ef32525",
+          "reference_distribution": "Local intermediate image, excluded from the distributed theme. Regenerate with the initial prompt and original reference before applying this refinement.",
+          "style_references": [
+            {
+              "file": "backgrounds/20-tropical-archipelago-night.png",
+              "sha256": "7ecb5b0c0643078cc1afb14bf3d1e1cd31cb2fee01ef9623110c7dcb17ff4833",
+              "role": "Lighting intensity and warm robot-eye reference only."
+            }
+          ],
+          "prompt_file": "docs/prompts/19-steppe-night-relight.txt",
+          "prompt": "Use case: lighting-weather.\nAsset type: Outpost nighttime desktop wallpaper refinement.\nInput images: Image 1 is the edit target (Steppe — Night). Image 2 is the approved brighter tropical nighttime wallpaper, a reference ONLY for illumination strength, warm robot-eye light, readable shadows and pixel art finish. Do not copy its islands, scenery, architecture or composition.\nPrimary request: noticeably improve illumination of Image 1 to the readable nighttime level of Image 2 while preserving its scene. Make the tiny robot's existing eye/lens glow visibly warm ivory-amber, casting a small natural pool of light on its body and balcony floor and a delicate highlight on nearby railings. Illuminate a moderate selection of existing outpost windows on several levels, with a few small practical balcony or wall lamps where plausible. Make the outpost feel inhabited: more warm light points than the input, but leave most of the structure in shadow. Vary window brightness, keep glows localized and avoid lighting every window, decorative light strings or excessive bloom. Reveal weathered bronze pipes and foreground surfaces through localized warm light and cool moonlight.\nScene-specific lighting: Reveal grassland texture and hill layers with cool moonlight. Make the existing train windows and a few distant station windows glow warmly and delicately, without adding buildings.\nOverall light: stronger but gentle cool moonlight on landscape contours and cloud edges, distinct foreground/middle/distant layers, deep petroleum and blue-green shadows, small bronze/amber accents. Keep a clearly nocturnal scene with broad calm dark areas for desktop use. Make the improvement substantial enough to see landscape detail easily, like Image 2, without washing out the image. Do not simply lift blacks or add global gray haze. No daylight, dawn, sunset glow, neon, oversized eye, searchlight beam or blown highlights. Do not add a new visible moon if the target does not already have one.\nInvariants: preserve the exact wide framing, terrain, architecture, all existing objects and vegetation, and tiny robot identity, scale and position. Preserve crisp detailed pixel art. Change illumination only. No new characters, structures, text, logos, borders or collage.\nOutput: one native 3840 x 2160 PNG, landscape 16:9. No post-generation resizing, cropping or recoloring.",
+          "model": "gpt-image-2",
+          "quality": "high",
+          "requested_size": "3840x2160"
+        }
+      ]
     },
     {
       "name": "20-tropical-archipelago-night",
@@ -116,7 +249,26 @@
       "file": "backgrounds/22-rolling-hills-night.png",
       "prompt_file": "docs/prompts/22-rolling-hills-night.txt",
       "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Rolling hills wallpaper, visual and composition reference.\nPrimary request: create a night companion to this reference.\nScene: Soft Tuscan and Oltrepo-inspired hills, vineyards, ochre fields, cypress trees and a large industrial outpost on the right with tiny maintenance robot.\nLighting and palette: True night with a deep petroleum and blue-green sky, very subdued ivory moonlight and only a few small warm bronze/amber windows. Broad quiet dark sky and landscape areas, layered shadows that still reveal terrain and structures. Sparse stars where clouds permit. Restrained contrast; no daylight, sunset glow, neon, giant bright moon or crushed solid-black landscape.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
-      "variant": "night"
+      "variant": "night",
+      "refinements": [
+        {
+          "reference": "originals/22-rolling-hills-night-v1.png",
+          "reference_sha256": "cfc0549c935a64b8233e8825a4f84d99aefc126b84220864dc7f7b9f685b803c",
+          "reference_distribution": "Local intermediate image, excluded from the distributed theme. Regenerate with the initial prompt and original reference before applying this refinement.",
+          "style_references": [
+            {
+              "file": "backgrounds/20-tropical-archipelago-night.png",
+              "sha256": "7ecb5b0c0643078cc1afb14bf3d1e1cd31cb2fee01ef9623110c7dcb17ff4833",
+              "role": "Lighting intensity and warm robot-eye reference only."
+            }
+          ],
+          "prompt_file": "docs/prompts/22-rolling-hills-night-relight.txt",
+          "prompt": "Use case: lighting-weather.\nAsset type: Outpost nighttime desktop wallpaper refinement.\nInput images: Image 1 is the edit target (Rolling hills — Night). Image 2 is the approved brighter tropical nighttime wallpaper, a reference ONLY for illumination strength, warm robot-eye light, readable shadows and pixel art finish. Do not copy its islands, scenery, architecture or composition.\nPrimary request: noticeably improve illumination of Image 1 to the readable nighttime level of Image 2 while preserving its scene. Make the tiny robot's existing eye/lens glow visibly warm ivory-amber, casting a small natural pool of light on its body and balcony floor and a delicate highlight on nearby railings. Illuminate a moderate selection of existing outpost windows on several levels, with a few small practical balcony or wall lamps where plausible. Make the outpost feel inhabited: more warm light points than the input, but leave most of the structure in shadow. Vary window brightness, keep glows localized and avoid lighting every window, decorative light strings or excessive bloom. Reveal weathered bronze pipes and foreground surfaces through localized warm light and cool moonlight.\nScene-specific lighting: Reveal vineyard rows, cypress silhouettes and layered rolling hills with cool moonlight. Keep the existing moon and the existing sparse distant lights.\nOverall light: stronger but gentle cool moonlight on landscape contours and cloud edges, distinct foreground/middle/distant layers, deep petroleum and blue-green shadows, small bronze/amber accents. Keep a clearly nocturnal scene with broad calm dark areas for desktop use. Make the improvement substantial enough to see landscape detail easily, like Image 2, without washing out the image. Do not simply lift blacks or add global gray haze. No daylight, dawn, sunset glow, neon, oversized eye, searchlight beam or blown highlights. Do not add a new visible moon if the target does not already have one.\nInvariants: preserve the exact wide framing, terrain, architecture, all existing objects and vegetation, and tiny robot identity, scale and position. Preserve crisp detailed pixel art. Change illumination only. No new characters, structures, text, logos, borders or collage.\nOutput: one native 3840 x 2160 PNG, landscape 16:9. No post-generation resizing, cropping or recoloring.",
+          "model": "gpt-image-2",
+          "quality": "high",
+          "requested_size": "3840x2160"
+        }
+      ]
     },
     {
       "name": "23-water-city-night",
@@ -125,7 +277,26 @@
       "file": "backgrounds/23-water-city-night.png",
       "prompt_file": "docs/prompts/23-water-city-night.txt",
       "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Water city wallpaper, visual and composition reference.\nPrimary request: create a night companion to this reference.\nScene: Quiet industrial canal city with broad reflective water, distant haze, massive weathered structure on the right and tiny maintenance robot on its balcony.\nLighting and palette: True night with a deep petroleum and blue-green sky, very subdued ivory moonlight and only a few small warm bronze/amber windows. Broad quiet dark sky and landscape areas, layered shadows that still reveal terrain and structures. Sparse stars where clouds permit. Restrained contrast; no daylight, sunset glow, neon, giant bright moon or crushed solid-black landscape.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
-      "variant": "night"
+      "variant": "night",
+      "refinements": [
+        {
+          "reference": "originals/23-water-city-night-v1.png",
+          "reference_sha256": "246d13837ca9787df9bc50aa2f1a45428dee7dfe8689bf9c10374fd260225427",
+          "reference_distribution": "Local intermediate image, excluded from the distributed theme. Regenerate with the initial prompt and original reference before applying this refinement.",
+          "style_references": [
+            {
+              "file": "backgrounds/20-tropical-archipelago-night.png",
+              "sha256": "7ecb5b0c0643078cc1afb14bf3d1e1cd31cb2fee01ef9623110c7dcb17ff4833",
+              "role": "Lighting intensity and warm robot-eye reference only."
+            }
+          ],
+          "prompt_file": "docs/prompts/23-water-city-night-relight.txt",
+          "prompt": "Use case: lighting-weather.\nAsset type: Outpost nighttime desktop wallpaper refinement.\nInput images: Image 1 is the edit target (Water city — Night). Image 2 is the approved brighter tropical nighttime wallpaper, a reference ONLY for illumination strength, warm robot-eye light, readable shadows and pixel art finish. Do not copy its islands, scenery, architecture or composition.\nPrimary request: noticeably improve illumination of Image 1 to the readable nighttime level of Image 2 while preserving its scene. Make the tiny robot's existing eye/lens glow visibly warm ivory-amber, casting a small natural pool of light on its body and balcony floor and a delicate highlight on nearby railings. Illuminate a moderate selection of existing outpost windows on several levels, with a few small practical balcony or wall lamps where plausible. Make the outpost feel inhabited: more warm light points than the input, but leave most of the structure in shadow. Vary window brightness, keep glows localized and avoid lighting every window, decorative light strings or excessive bloom. Reveal weathered bronze pipes and foreground surfaces through localized warm light and cool moonlight.\nScene-specific lighting: Reveal canal banks and building edges with cool moonlight. Make a restrained selection of existing windows and quay lamps glow warmly, with narrow, broken reflections in the canal.\nOverall light: stronger but gentle cool moonlight on landscape contours and cloud edges, distinct foreground/middle/distant layers, deep petroleum and blue-green shadows, small bronze/amber accents. Keep a clearly nocturnal scene with broad calm dark areas for desktop use. Make the improvement substantial enough to see landscape detail easily, like Image 2, without washing out the image. Do not simply lift blacks or add global gray haze. No daylight, dawn, sunset glow, neon, oversized eye, searchlight beam or blown highlights. Do not add a new visible moon if the target does not already have one.\nInvariants: preserve the exact wide framing, terrain, architecture, all existing objects and vegetation, and tiny robot identity, scale and position. Preserve crisp detailed pixel art. Change illumination only. No new characters, structures, text, logos, borders or collage.\nOutput: one native 3840 x 2160 PNG, landscape 16:9. No post-generation resizing, cropping or recoloring.",
+          "model": "gpt-image-2",
+          "quality": "high",
+          "requested_size": "3840x2160"
+        }
+      ]
     },
     {
       "name": "24-overgrown-ruins-night",
@@ -134,7 +305,26 @@
       "file": "backgrounds/24-overgrown-ruins-night.png",
       "prompt_file": "docs/prompts/24-overgrown-ruins-night.txt",
       "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Overgrown ruins wallpaper, visual and composition reference.\nPrimary request: create a night companion to this reference.\nScene: Overgrown stone ruins surrounding a quiet stream, ivy-covered industrial outpost on the left with tiny maintenance robot.\nLighting and palette: True night with a deep petroleum and blue-green sky, very subdued ivory moonlight and only a few small warm bronze/amber windows. Broad quiet dark sky and landscape areas, layered shadows that still reveal terrain and structures. Sparse stars where clouds permit. Restrained contrast; no daylight, sunset glow, neon, giant bright moon or crushed solid-black landscape.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
-      "variant": "night"
+      "variant": "night",
+      "refinements": [
+        {
+          "reference": "originals/24-overgrown-ruins-night-v1.png",
+          "reference_sha256": "c83f542f14f41f9f89785485bd5b71c9156eecb010be5aff54b82c16550d20b9",
+          "reference_distribution": "Local intermediate image, excluded from the distributed theme. Regenerate with the initial prompt and original reference before applying this refinement.",
+          "style_references": [
+            {
+              "file": "backgrounds/20-tropical-archipelago-night.png",
+              "sha256": "7ecb5b0c0643078cc1afb14bf3d1e1cd31cb2fee01ef9623110c7dcb17ff4833",
+              "role": "Lighting intensity and warm robot-eye reference only."
+            }
+          ],
+          "prompt_file": "docs/prompts/24-overgrown-ruins-night-relight.txt",
+          "prompt": "Use case: lighting-weather.\nAsset type: Outpost nighttime desktop wallpaper refinement.\nInput images: Image 1 is the edit target (Overgrown ruins — Night). Image 2 is the approved brighter tropical nighttime wallpaper, a reference ONLY for illumination strength, warm robot-eye light, readable shadows and pixel art finish. Do not copy its islands, scenery, architecture or composition.\nPrimary request: noticeably improve illumination of Image 1 to the readable nighttime level of Image 2 while preserving its scene. Make the tiny robot's existing eye/lens glow visibly warm ivory-amber, casting a small natural pool of light on its body and balcony floor and a delicate highlight on nearby railings. Illuminate a moderate selection of existing outpost windows on several levels, with a few small practical balcony or wall lamps where plausible. Make the outpost feel inhabited: more warm light points than the input, but leave most of the structure in shadow. Vary window brightness, keep glows localized and avoid lighting every window, decorative light strings or excessive bloom. Reveal weathered bronze pipes and foreground surfaces through localized warm light and cool moonlight.\nScene-specific lighting: Reveal stone block edges, ivy, grasses and the stream with cool moonlight. Preserve the few existing warm windows and make the inhabited outpost subtly inviting; keep most ruins dark.\nOverall light: stronger but gentle cool moonlight on landscape contours and cloud edges, distinct foreground/middle/distant layers, deep petroleum and blue-green shadows, small bronze/amber accents. Keep a clearly nocturnal scene with broad calm dark areas for desktop use. Make the improvement substantial enough to see landscape detail easily, like Image 2, without washing out the image. Do not simply lift blacks or add global gray haze. No daylight, dawn, sunset glow, neon, oversized eye, searchlight beam or blown highlights. Do not add a new visible moon if the target does not already have one.\nInvariants: preserve the exact wide framing, terrain, architecture, all existing objects and vegetation, and tiny robot identity, scale and position. Preserve crisp detailed pixel art. Change illumination only. No new characters, structures, text, logos, borders or collage.\nOutput: one native 3840 x 2160 PNG, landscape 16:9. No post-generation resizing, cropping or recoloring.",
+          "model": "gpt-image-2",
+          "quality": "high",
+          "requested_size": "3840x2160"
+        }
+      ]
     }
   ]
 }
