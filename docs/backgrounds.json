@@ -256,7 +256,7 @@
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "c61f7c09b0d1dd7bdee3af60734e764a9857a925251338687deafe2c1c95a8f3",
+    "sha256": "63eced2261f36b10a411efa7a625bfae15147b6237325a43f007296972864299",
     "preview": "docs/previews/13-forest-night.jpg",
     "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
@@ -271,7 +271,14 @@
     "requested_size": "3840x2160",
     "generation_date": "2026-09-13",
     "variant": "night",
-    "prompt_file": "docs/prompts/13-forest-night.txt"
+    "prompt_file": "docs/prompts/13-forest-night.txt",
+    "refinement_prompt_file": "docs/prompts/13-forest-night-relight.txt",
+    "refinement_reference": {
+      "sha256": "c61f7c09b0d1dd7bdee3af60734e764a9857a925251338687deafe2c1c95a8f3",
+      "width": 3840,
+      "height": 2160,
+      "description": "Initial nighttime version generated from the original wallpaper; retained locally outside the distributed theme."
+    }
   },
   {
     "file": "backgrounds/14-desert-night.png",
@@ -279,7 +286,7 @@
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "b87899f1728660d25ce8f709408b93a53eef56f73a42458363badceb729408b9",
+    "sha256": "310c2fd6520be69ddb89475b82e1c8213f3511b5369789ee773f924d9b63953d",
     "preview": "docs/previews/14-desert-night.jpg",
     "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
@@ -294,7 +301,14 @@
     "requested_size": "3840x2160",
     "generation_date": "2026-09-13",
     "variant": "night",
-    "prompt_file": "docs/prompts/14-desert-night.txt"
+    "prompt_file": "docs/prompts/14-desert-night.txt",
+    "refinement_prompt_file": "docs/prompts/14-desert-night-relight.txt",
+    "refinement_reference": {
+      "sha256": "b87899f1728660d25ce8f709408b93a53eef56f73a42458363badceb729408b9",
+      "width": 3840,
+      "height": 2160,
+      "description": "Initial nighttime version generated from the original wallpaper; retained locally outside the distributed theme."
+    }
   },
   {
     "file": "backgrounds/15-mediterranean-night.png",
@@ -302,7 +316,7 @@
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "fbae7feb08878d84cc8716bee65f4ffeb2a6ee7c9750f521dc3910db35d4be8b",
+    "sha256": "dc21e53a58757a26fe3b2fb6d4c0306dc954f727b0356edccd6cd02cb14b3cfc",
     "preview": "docs/previews/15-mediterranean-night.jpg",
     "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
@@ -317,7 +331,14 @@
     "requested_size": "3840x2160",
     "generation_date": "2026-09-13",
     "variant": "night",
-    "prompt_file": "docs/prompts/15-mediterranean-night.txt"
+    "prompt_file": "docs/prompts/15-mediterranean-night.txt",
+    "refinement_prompt_file": "docs/prompts/15-mediterranean-night-relight.txt",
+    "refinement_reference": {
+      "sha256": "fbae7feb08878d84cc8716bee65f4ffeb2a6ee7c9750f521dc3910db35d4be8b",
+      "width": 3840,
+      "height": 2160,
+      "description": "Initial nighttime version generated from the original wallpaper; retained locally outside the distributed theme."
+    }
   },
   {
     "file": "backgrounds/16-tundra-night.png",
@@ -325,7 +346,7 @@
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "2117276fb28c3dcb79b214324e732d1567cfcccd8b9ac85648dde93e5144cdd5",
+    "sha256": "87b34485cac81395ad31a51ca76436650bc62d4a8622e7b03753f51c756dbe6d",
     "preview": "docs/previews/16-tundra-night.jpg",
     "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
@@ -340,7 +361,14 @@
     "requested_size": "3840x2160",
     "generation_date": "2026-09-13",
     "variant": "night",
-    "prompt_file": "docs/prompts/16-tundra-night.txt"
+    "prompt_file": "docs/prompts/16-tundra-night.txt",
+    "refinement_prompt_file": "docs/prompts/16-tundra-night-relight.txt",
+    "refinement_reference": {
+      "sha256": "2117276fb28c3dcb79b214324e732d1567cfcccd8b9ac85648dde93e5144cdd5",
+      "width": 3840,
+      "height": 2160,
+      "description": "Initial nighttime version generated from the original wallpaper; retained locally outside the distributed theme."
+    }
   },
   {
     "file": "backgrounds/17-swamp-night.png",
@@ -348,7 +376,7 @@
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "9a7828761b5016490f2345733765d570d125236da8aff9e247c708139f38b0da",
+    "sha256": "59c9bdd052f55fb431361c03624385d713d54118649036e702b62dd69220c258",
     "preview": "docs/previews/17-swamp-night.jpg",
     "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
@@ -363,7 +391,14 @@
     "requested_size": "3840x2160",
     "generation_date": "2026-09-13",
     "variant": "night",
-    "prompt_file": "docs/prompts/17-swamp-night.txt"
+    "prompt_file": "docs/prompts/17-swamp-night.txt",
+    "refinement_prompt_file": "docs/prompts/17-swamp-night-relight.txt",
+    "refinement_reference": {
+      "sha256": "9a7828761b5016490f2345733765d570d125236da8aff9e247c708139f38b0da",
+      "width": 3840,
+      "height": 2160,
+      "description": "Initial nighttime version generated from the original wallpaper; retained locally outside the distributed theme."
+    }
   },
   {
     "file": "backgrounds/18-volcanic-night.png",
@@ -371,7 +406,7 @@
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "92fc0606c7460572e1e6b048e0539135e2cccc1c262da13929dd61e4d4627e6c",
+    "sha256": "91e14c7bbc145e987a4a6ab8943fc8e29e487b77c3eac6411b6cdb5781cb65d7",
     "preview": "docs/previews/18-volcanic-night.jpg",
     "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
@@ -386,7 +421,14 @@
     "requested_size": "3840x2160",
     "generation_date": "2026-09-13",
     "variant": "night",
-    "prompt_file": "docs/prompts/18-volcanic-night.txt"
+    "prompt_file": "docs/prompts/18-volcanic-night.txt",
+    "refinement_prompt_file": "docs/prompts/18-volcanic-night-relight.txt",
+    "refinement_reference": {
+      "sha256": "92fc0606c7460572e1e6b048e0539135e2cccc1c262da13929dd61e4d4627e6c",
+      "width": 3840,
+      "height": 2160,
+      "description": "Initial nighttime version generated from the original wallpaper; retained locally outside the distributed theme."
+    }
   },
   {
     "file": "backgrounds/19-steppe-night.png",
@@ -394,7 +436,7 @@
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "60e4fabc43b14219ee5462e8766656092221e7b75f21257601617d770ef32525",
+    "sha256": "6ddbf5a04116c59bef287172605e471cd4f8e8edaf74edf870a08d95fe913b92",
     "preview": "docs/previews/19-steppe-night.jpg",
     "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
@@ -409,7 +451,14 @@
     "requested_size": "3840x2160",
     "generation_date": "2026-09-13",
     "variant": "night",
-    "prompt_file": "docs/prompts/19-steppe-night.txt"
+    "prompt_file": "docs/prompts/19-steppe-night.txt",
+    "refinement_prompt_file": "docs/prompts/19-steppe-night-relight.txt",
+    "refinement_reference": {
+      "sha256": "60e4fabc43b14219ee5462e8766656092221e7b75f21257601617d770ef32525",
+      "width": 3840,
+      "height": 2160,
+      "description": "Initial nighttime version generated from the original wallpaper; retained locally outside the distributed theme."
+    }
   },
   {
     "file": "backgrounds/20-tropical-archipelago-night.png",
@@ -477,7 +526,7 @@
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "cfc0549c935a64b8233e8825a4f84d99aefc126b84220864dc7f7b9f685b803c",
+    "sha256": "3510c717c7a98f2033d193a53d6e391d5ed91f0467bbaa8021222fead4164dd5",
     "preview": "docs/previews/22-rolling-hills-night.jpg",
     "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
@@ -492,7 +541,14 @@
     "requested_size": "3840x2160",
     "generation_date": "2026-09-13",
     "variant": "night",
-    "prompt_file": "docs/prompts/22-rolling-hills-night.txt"
+    "prompt_file": "docs/prompts/22-rolling-hills-night.txt",
+    "refinement_prompt_file": "docs/prompts/22-rolling-hills-night-relight.txt",
+    "refinement_reference": {
+      "sha256": "cfc0549c935a64b8233e8825a4f84d99aefc126b84220864dc7f7b9f685b803c",
+      "width": 3840,
+      "height": 2160,
+      "description": "Initial nighttime version generated from the original wallpaper; retained locally outside the distributed theme."
+    }
   },
   {
     "file": "backgrounds/23-water-city-night.png",
@@ -500,7 +556,7 @@
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "246d13837ca9787df9bc50aa2f1a45428dee7dfe8689bf9c10374fd260225427",
+    "sha256": "4a27dfa665e74e7e201f08b23a9d6ae5685fe52c33a01b65c64cd54571d824ae",
     "preview": "docs/previews/23-water-city-night.jpg",
     "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
@@ -515,7 +571,14 @@
     "requested_size": "3840x2160",
     "generation_date": "2026-09-13",
     "variant": "night",
-    "prompt_file": "docs/prompts/23-water-city-night.txt"
+    "prompt_file": "docs/prompts/23-water-city-night.txt",
+    "refinement_prompt_file": "docs/prompts/23-water-city-night-relight.txt",
+    "refinement_reference": {
+      "sha256": "246d13837ca9787df9bc50aa2f1a45428dee7dfe8689bf9c10374fd260225427",
+      "width": 3840,
+      "height": 2160,
+      "description": "Initial nighttime version generated from the original wallpaper; retained locally outside the distributed theme."
+    }
   },
   {
     "file": "backgrounds/24-overgrown-ruins-night.png",
@@ -523,7 +586,7 @@
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "c83f542f14f41f9f89785485bd5b71c9156eecb010be5aff54b82c16550d20b9",
+    "sha256": "8e9004c6f0900f0a4fff100e5923d6e52ebca5918e4d088c6a9d780623c891f4",
     "preview": "docs/previews/24-overgrown-ruins-night.jpg",
     "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
@@ -538,7 +601,14 @@
     "requested_size": "3840x2160",
     "generation_date": "2026-09-13",
     "variant": "night",
-    "prompt_file": "docs/prompts/24-overgrown-ruins-night.txt"
+    "prompt_file": "docs/prompts/24-overgrown-ruins-night.txt",
+    "refinement_prompt_file": "docs/prompts/24-overgrown-ruins-night-relight.txt",
+    "refinement_reference": {
+      "sha256": "c83f542f14f41f9f89785485bd5b71c9156eecb010be5aff54b82c16550d20b9",
+      "width": 3840,
+      "height": 2160,
+      "description": "Initial nighttime version generated from the original wallpaper; retained locally outside the distributed theme."
+    }
   },
   {
     "file": "backgrounds/25-forest-dawn.png",
