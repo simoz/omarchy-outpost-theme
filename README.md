@@ -8,7 +8,9 @@ A pixel art theme for Omarchy inspired by remote outposts, wild landscapes, and 
 
 ## Backgrounds
 
-Twelve wallpapers, all 3840 × 2160. Click a preview to open the full-resolution PNG.
+Thirty-six wallpapers, all native 3840 × 2160: twelve original scenes, twelve night companions, and twelve dawn/sunset companions. Click a preview to open the full-resolution PNG.
+
+### Original scenes
 
 | | | |
 | --- | --- | --- |
@@ -16,6 +18,26 @@ Twelve wallpapers, all 3840 × 2160. Click a preview to open the full-resolution
 | [![Tundra](docs/previews/04-tundra.jpg)](backgrounds/04-tundra.png)<br>Tundra | [![Swamp](docs/previews/05-swamp.jpg)](backgrounds/05-swamp.png)<br>Swamp | [![Volcanic](docs/previews/06-volcanic.jpg)](backgrounds/06-volcanic.png)<br>Volcanic |
 | [![Steppe](docs/previews/07-steppe.jpg)](backgrounds/07-steppe.png)<br>Steppe | [![Tropical archipelago](docs/previews/08-tropical-archipelago.jpg)](backgrounds/08-tropical-archipelago.png)<br>Tropical archipelago | [![Alpine mountains](docs/previews/09-alpine.jpg)](backgrounds/09-alpine.png)<br>Alpine mountains |
 | [![Rolling hills](docs/previews/10-rolling-hills.jpg)](backgrounds/10-rolling-hills.png)<br>Rolling hills | [![Water city](docs/previews/11-water-city.jpg)](backgrounds/11-water-city.png)<br>Water city | [![Overgrown ruins](docs/previews/12-overgrown-ruins.jpg)](backgrounds/12-overgrown-ruins.png)<br>Overgrown ruins |
+
+### Night
+
+| | | |
+| --- | --- | --- |
+| [![Forest — Night](docs/previews/13-forest-night.jpg)](backgrounds/13-forest-night.png)<br>Forest — Night | [![Desert — Night](docs/previews/14-desert-night.jpg)](backgrounds/14-desert-night.png)<br>Desert — Night | [![Mediterranean — Night](docs/previews/15-mediterranean-night.jpg)](backgrounds/15-mediterranean-night.png)<br>Mediterranean — Night |
+| [![Tundra — Night](docs/previews/16-tundra-night.jpg)](backgrounds/16-tundra-night.png)<br>Tundra — Night | [![Swamp — Night](docs/previews/17-swamp-night.jpg)](backgrounds/17-swamp-night.png)<br>Swamp — Night | [![Volcanic — Night](docs/previews/18-volcanic-night.jpg)](backgrounds/18-volcanic-night.png)<br>Volcanic — Night |
+| [![Steppe — Night](docs/previews/19-steppe-night.jpg)](backgrounds/19-steppe-night.png)<br>Steppe — Night | [![Tropical archipelago — Night](docs/previews/20-tropical-archipelago-night.jpg)](backgrounds/20-tropical-archipelago-night.png)<br>Tropical archipelago — Night | [![Alpine mountains — Night](docs/previews/21-alpine-night.jpg)](backgrounds/21-alpine-night.png)<br>Alpine mountains — Night |
+| [![Rolling hills — Night](docs/previews/22-rolling-hills-night.jpg)](backgrounds/22-rolling-hills-night.png)<br>Rolling hills — Night | [![Water city — Night](docs/previews/23-water-city-night.jpg)](backgrounds/23-water-city-night.png)<br>Water city — Night | [![Overgrown ruins — Night](docs/previews/24-overgrown-ruins-night.jpg)](backgrounds/24-overgrown-ruins-night.png)<br>Overgrown ruins — Night |
+
+### Dawn & sunset
+
+| | | |
+| --- | --- | --- |
+| [![Forest — Dawn](docs/previews/25-forest-dawn.jpg)](backgrounds/25-forest-dawn.png)<br>Forest — Dawn | [![Desert — Sunset](docs/previews/26-desert-sunset.jpg)](backgrounds/26-desert-sunset.png)<br>Desert — Sunset | [![Mediterranean — Sunset](docs/previews/27-mediterranean-sunset.jpg)](backgrounds/27-mediterranean-sunset.png)<br>Mediterranean — Sunset |
+| [![Tundra — Dawn](docs/previews/28-tundra-dawn.jpg)](backgrounds/28-tundra-dawn.png)<br>Tundra — Dawn | [![Swamp — Dawn](docs/previews/29-swamp-dawn.jpg)](backgrounds/29-swamp-dawn.png)<br>Swamp — Dawn | [![Volcanic — Dawn](docs/previews/30-volcanic-dawn.jpg)](backgrounds/30-volcanic-dawn.png)<br>Volcanic — Dawn |
+| [![Steppe — Sunset](docs/previews/31-steppe-sunset.jpg)](backgrounds/31-steppe-sunset.png)<br>Steppe — Sunset | [![Tropical archipelago — Sunset](docs/previews/32-tropical-archipelago-sunset.jpg)](backgrounds/32-tropical-archipelago-sunset.png)<br>Tropical archipelago — Sunset | [![Alpine mountains — Dawn](docs/previews/33-alpine-dawn.jpg)](backgrounds/33-alpine-dawn.png)<br>Alpine mountains — Dawn |
+| [![Rolling hills — Sunset](docs/previews/34-rolling-hills-sunset.jpg)](backgrounds/34-rolling-hills-sunset.png)<br>Rolling hills — Sunset | [![Water city — Sunset](docs/previews/35-water-city-sunset.jpg)](backgrounds/35-water-city-sunset.png)<br>Water city — Sunset | [![Overgrown ruins — Dawn](docs/previews/36-overgrown-ruins-dawn.jpg)](backgrounds/36-overgrown-ruins-dawn.png)<br>Overgrown ruins — Dawn |
+
+The lighting variants use their corresponding original wallpaper as a visual reference. [Exact prompts and generation settings](docs/prompts/README.md) are included for both companion packs.
 
 ## Inspiration
 

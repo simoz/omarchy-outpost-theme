@@ -1,0 +1,8 @@
+Use case: lighting-weather.
+Asset type: Outpost desktop wallpaper, one separate image.
+Input image: original Outpost Rolling hills wallpaper, visual and composition reference.
+Primary request: create a sunset companion to this reference.
+Scene: Soft Tuscan and Oltrepo-inspired hills, vineyards, ochre fields, cypress trees and a large industrial outpost on the right with tiny maintenance robot.
+Lighting and palette: Low copper sunlight grazing vineyard rows, distant layered hills fading into haze and long petroleum shadows. Preserve petroleum blue-green shadows, weathered bronze metal and restrained ivory highlights. Warm light must remain soft and balanced, without oversaturated orange, neon pink or broad blown-out areas.
+Constraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.
+Output: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.
