@@ -132,6 +132,8 @@ The theme uses the Omarchy 4 central palette format. Omarchy generates applicati
 
 Artwork created for Outpost with OpenAI image generation. Wallpapers are 3840 × 2160, with no post-generation upscaling; gallery previews are reduced copies. The generated unlock concept references the layout of [Omarchy’s Plymouth theme](https://github.com/omacom/omarchy/tree/quattro/default/plymouth).
 
+Thanks to [limehawk](https://github.com/limehawk) for inspiring the expansion of Outpost’s wallpaper collection with nighttime and sunset scenes.
+
 ## License
 
 See the [MIT License](LICENSE).
