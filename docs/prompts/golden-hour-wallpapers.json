@@ -1,0 +1,116 @@
+{
+  "tool": "OpenAI Image API via bundled imagegen CLI edit",
+  "model": "gpt-image-2",
+  "quality": "high",
+  "requested_size": "3840x2160",
+  "images": [
+    {
+      "name": "25-forest-dawn",
+      "title": "Forest — Dawn",
+      "reference": "backgrounds/01-forest.png",
+      "file": "backgrounds/25-forest-dawn.png",
+      "prompt_file": "docs/prompts/25-forest-dawn.txt",
+      "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Forest wallpaper, visual and composition reference.\nPrimary request: create a dawn companion to this reference.\nScene: A vast forest canopy with winding rivers and a distant spherical watchtower; vine-covered industrial outpost on the left, tiny maintenance robot on its balcony.\nLighting and palette: Thin morning mist drifting between forest layers, the first muted ivory and bronze light on the horizon. Preserve petroleum blue-green shadows, weathered bronze metal and restrained ivory highlights. Warm light must remain soft and balanced, without oversaturated orange, neon pink or broad blown-out areas.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
+      "variant": "dawn"
+    },
+    {
+      "name": "26-desert-sunset",
+      "title": "Desert — Sunset",
+      "reference": "backgrounds/02-desert.png",
+      "file": "backgrounds/26-desert-sunset.png",
+      "prompt_file": "docs/prompts/26-desert-sunset.txt",
+      "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Desert wallpaper, visual and composition reference.\nPrimary request: create a sunset companion to this reference.\nScene: Desert mesas and dunes, a distant spherical tower, industrial shelter on the right and a tiny maintenance robot on its balcony.\nLighting and palette: A low amber sun near the horizon, rust-bronze dune ridges and long cool petroleum shadows; a calm muted sky. Preserve petroleum blue-green shadows, weathered bronze metal and restrained ivory highlights. Warm light must remain soft and balanced, without oversaturated orange, neon pink or broad blown-out areas.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
+      "variant": "sunset"
+    },
+    {
+      "name": "27-mediterranean-sunset",
+      "title": "Mediterranean — Sunset",
+      "reference": "backgrounds/03-mediterranean.png",
+      "file": "backgrounds/27-mediterranean-sunset.png",
+      "prompt_file": "docs/prompts/27-mediterranean-sunset.txt",
+      "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Mediterranean wallpaper, visual and composition reference.\nPrimary request: create a sunset companion to this reference.\nScene: Mediterranean cliffs and bay, umbrella pines and olive trees, outpost on the left with a tiny robot, a spherical tower on the distant right headland.\nLighting and palette: Soft copper and peach light over the sea, cool blue-green bay, long shadows beneath umbrella pines. Preserve petroleum blue-green shadows, weathered bronze metal and restrained ivory highlights. Warm light must remain soft and balanced, without oversaturated orange, neon pink or broad blown-out areas.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
+      "variant": "sunset"
+    },
+    {
+      "name": "28-tundra-dawn",
+      "title": "Tundra — Dawn",
+      "reference": "backgrounds/04-tundra.png",
+      "file": "backgrounds/28-tundra-dawn.png",
+      "prompt_file": "docs/prompts/28-tundra-dawn.txt",
+      "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Tundra wallpaper, visual and composition reference.\nPrimary request: create a dawn companion to this reference.\nScene: Snowy tundra and a frozen bay with broken ice shelves, distant mountain ranges, iced industrial outpost on the left with its tiny robot.\nLighting and palette: First pale rose-ivory light edging the distant mountains and ice, a cool blue-green frozen foreground. Preserve petroleum blue-green shadows, weathered bronze metal and restrained ivory highlights. Warm light must remain soft and balanced, without oversaturated orange, neon pink or broad blown-out areas.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
+      "variant": "dawn"
+    },
+    {
+      "name": "29-swamp-dawn",
+      "title": "Swamp — Dawn",
+      "reference": "backgrounds/05-swamp.png",
+      "file": "backgrounds/29-swamp-dawn.png",
+      "prompt_file": "docs/prompts/29-swamp-dawn.txt",
+      "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Swamp wallpaper, visual and composition reference.\nPrimary request: create a dawn companion to this reference.\nScene: A quiet misty swamp, still water and reeds, distant dome and stilt-supported outpost on the right with tiny maintenance robot.\nLighting and palette: Delicate bronze morning light filtering through low mist, subdued ivory reflections amid dark reeds and water. Preserve petroleum blue-green shadows, weathered bronze metal and restrained ivory highlights. Warm light must remain soft and balanced, without oversaturated orange, neon pink or broad blown-out areas.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
+      "variant": "dawn"
+    },
+    {
+      "name": "30-volcanic-dawn",
+      "title": "Volcanic — Dawn",
+      "reference": "backgrounds/06-volcanic.png",
+      "file": "backgrounds/30-volcanic-dawn.png",
+      "prompt_file": "docs/prompts/30-volcanic-dawn.txt",
+      "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Volcanic wallpaper, visual and composition reference.\nPrimary request: create a dawn companion to this reference.\nScene: Basalt plain with steam vents and turquoise geothermal streams, distant volcanic mountains and a tall spherical tower, bronze-domed outpost on the left with tiny robot.\nLighting and palette: First soft bronze and dusty rose light catching steam plumes, pale horizon behind volcanic ridges, dark petroleum basalt. Preserve petroleum blue-green shadows, weathered bronze metal and restrained ivory highlights. Warm light must remain soft and balanced, without oversaturated orange, neon pink or broad blown-out areas.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
+      "variant": "dawn"
+    },
+    {
+      "name": "31-steppe-sunset",
+      "title": "Steppe — Sunset",
+      "reference": "backgrounds/07-steppe.png",
+      "file": "backgrounds/31-steppe-sunset.png",
+      "prompt_file": "docs/prompts/31-steppe-sunset.txt",
+      "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Steppe wallpaper, visual and composition reference.\nPrimary request: create a sunset companion to this reference.\nScene: A vast grassland with elevated railway and small train, distant domed station, weathered outpost on the left with a tiny maintenance robot.\nLighting and palette: The last deep bronze and amber light skimming grass and train windows, long petroleum shadows and a restrained copper horizon. Preserve petroleum blue-green shadows, weathered bronze metal and restrained ivory highlights. Warm light must remain soft and balanced, without oversaturated orange, neon pink or broad blown-out areas.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
+      "variant": "sunset"
+    },
+    {
+      "name": "32-tropical-archipelago-sunset",
+      "title": "Tropical archipelago — Sunset",
+      "reference": "backgrounds/08-tropical-archipelago.png",
+      "file": "backgrounds/32-tropical-archipelago-sunset.png",
+      "prompt_file": "docs/prompts/32-tropical-archipelago-sunset.txt",
+      "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Tropical archipelago wallpaper, visual and composition reference.\nPrimary request: create a sunset companion to this reference.\nScene: Tropical limestone islands and jungle-covered cliffs in a broad sea, distant spire, vine-covered industrial outpost on the left with tiny robot.\nLighting and palette: A narrow band of muted coral and bronze along the horizon, warm island rims and deep blue-green sea. Preserve petroleum blue-green shadows, weathered bronze metal and restrained ivory highlights. Warm light must remain soft and balanced, without oversaturated orange, neon pink or broad blown-out areas.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
+      "variant": "sunset"
+    },
+    {
+      "name": "33-alpine-dawn",
+      "title": "Alpine mountains — Dawn",
+      "reference": "backgrounds/09-alpine.png",
+      "file": "backgrounds/33-alpine-dawn.png",
+      "prompt_file": "docs/prompts/33-alpine-dawn.txt",
+      "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Alpine mountains wallpaper, visual and composition reference.\nPrimary request: create a dawn companion to this reference.\nScene: Alpine peaks and glacial lakes, weathered bronze observatory on the right with tiny maintenance robot on the balcony.\nLighting and palette: Subtle rose-bronze alpenglow on only the highest summits, dark blue-green valleys, pale cool lakes and a quiet dawn sky. Preserve petroleum blue-green shadows, weathered bronze metal and restrained ivory highlights. Warm light must remain soft and balanced, without oversaturated orange, neon pink or broad blown-out areas.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
+      "variant": "dawn"
+    },
+    {
+      "name": "34-rolling-hills-sunset",
+      "title": "Rolling hills — Sunset",
+      "reference": "backgrounds/10-rolling-hills.png",
+      "file": "backgrounds/34-rolling-hills-sunset.png",
+      "prompt_file": "docs/prompts/34-rolling-hills-sunset.txt",
+      "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Rolling hills wallpaper, visual and composition reference.\nPrimary request: create a sunset companion to this reference.\nScene: Soft Tuscan and Oltrepo-inspired hills, vineyards, ochre fields, cypress trees and a large industrial outpost on the right with tiny maintenance robot.\nLighting and palette: Low copper sunlight grazing vineyard rows, distant layered hills fading into haze and long petroleum shadows. Preserve petroleum blue-green shadows, weathered bronze metal and restrained ivory highlights. Warm light must remain soft and balanced, without oversaturated orange, neon pink or broad blown-out areas.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
+      "variant": "sunset"
+    },
+    {
+      "name": "35-water-city-sunset",
+      "title": "Water city — Sunset",
+      "reference": "backgrounds/11-water-city.png",
+      "file": "backgrounds/35-water-city-sunset.png",
+      "prompt_file": "docs/prompts/35-water-city-sunset.txt",
+      "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Water city wallpaper, visual and composition reference.\nPrimary request: create a sunset companion to this reference.\nScene: Quiet industrial canal city with broad reflective water, distant haze, massive weathered structure on the right and tiny maintenance robot on its balcony.\nLighting and palette: Last muted amber light between layered clouds reflected narrowly in the canal, cool petroleum buildings and sparse warm windows. Preserve petroleum blue-green shadows, weathered bronze metal and restrained ivory highlights. Warm light must remain soft and balanced, without oversaturated orange, neon pink or broad blown-out areas.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
+      "variant": "sunset"
+    },
+    {
+      "name": "36-overgrown-ruins-dawn",
+      "title": "Overgrown ruins — Dawn",
+      "reference": "backgrounds/12-overgrown-ruins.png",
+      "file": "backgrounds/36-overgrown-ruins-dawn.png",
+      "prompt_file": "docs/prompts/36-overgrown-ruins-dawn.txt",
+      "prompt": "Use case: lighting-weather.\nAsset type: Outpost desktop wallpaper, one separate image.\nInput image: original Outpost Overgrown ruins wallpaper, visual and composition reference.\nPrimary request: create a dawn companion to this reference.\nScene: Overgrown stone ruins surrounding a quiet stream, ivy-covered industrial outpost on the left with tiny maintenance robot.\nLighting and palette: Soft first ivory-bronze light and low ground mist between ruins, sage vegetation and cool petroleum shadows. Preserve petroleum blue-green shadows, weathered bronze metal and restrained ivory highlights. Warm light must remain soft and balanced, without oversaturated orange, neon pink or broad blown-out areas.\nConstraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.\nOutput: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.",
+      "variant": "dawn"
+    }
+  ]
+}

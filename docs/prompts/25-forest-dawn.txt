@@ -1,0 +1,8 @@
+Use case: lighting-weather.
+Asset type: Outpost desktop wallpaper, one separate image.
+Input image: original Outpost Forest wallpaper, visual and composition reference.
+Primary request: create a dawn companion to this reference.
+Scene: A vast forest canopy with winding rivers and a distant spherical watchtower; vine-covered industrial outpost on the left, tiny maintenance robot on its balcony.
+Lighting and palette: Thin morning mist drifting between forest layers, the first muted ivory and bronze light on the horizon. Preserve petroleum blue-green shadows, weathered bronze metal and restrained ivory highlights. Warm light must remain soft and balanced, without oversaturated orange, neon pink or broad blown-out areas.
+Constraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.
+Output: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.

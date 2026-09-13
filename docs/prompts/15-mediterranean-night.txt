@@ -1,0 +1,8 @@
+Use case: lighting-weather.
+Asset type: Outpost desktop wallpaper, one separate image.
+Input image: original Outpost Mediterranean wallpaper, visual and composition reference.
+Primary request: create a night companion to this reference.
+Scene: Mediterranean cliffs and bay, umbrella pines and olive trees, outpost on the left with a tiny robot, a spherical tower on the distant right headland.
+Lighting and palette: True night with a deep petroleum and blue-green sky, very subdued ivory moonlight and only a few small warm bronze/amber windows. Broad quiet dark sky and landscape areas, layered shadows that still reveal terrain and structures. Sparse stars where clouds permit. Restrained contrast; no daylight, sunset glow, neon, giant bright moon or crushed solid-black landscape.
+Constraints: Preserve the reference composition, recognizable architecture, railings, pipes, biome, robot design and tiny robot scale. Match its finely detailed pixel art with crisp pixel clusters and weathered materials. Keep the full wide framing. Broad calm areas for desktop use and legible layered landscape detail. No text, logos, watermark, borders, collage, photorealism or blur. Do not enlarge the robot or invent additional characters.
+Output: native 3840 x 2160 PNG, landscape 16:9. Render at this resolution; no post-generation resizing, cropping or recoloring.
