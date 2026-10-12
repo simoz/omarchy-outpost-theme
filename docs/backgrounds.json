@@ -1,13 +1,14 @@
 [
   {
-    "file": "backgrounds/01-forest.png",
+    "file": "backgrounds/01-forest.webp",
     "title": "Forest",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "e4bb23758b7516409dfe550f6ffbeaad6d9d9e7f8b3dcaf5d6888f5d1cb4423c",
+    "sha256": "9fb480a4a51b8c24ee8a07d166000559b806d842a7a8eded101ec66948a76fce",
+    "source_sha256": "e4bb23758b7516409dfe550f6ffbeaad6d9d9e7f8b3dcaf5d6888f5d1cb4423c",
     "preview": "docs/previews/01-forest.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the earlier approved biome as a visual reference.",
     "palette_note": "Petroleum shadows, green canopy and ivory clouds establish the shared palette.",
     "reference": {
@@ -22,14 +23,15 @@
     "generation_date": "2026-09-11"
   },
   {
-    "file": "backgrounds/02-desert.png",
+    "file": "backgrounds/02-desert.webp",
     "title": "Desert",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "5035b84ea3108cdc62b1a775632ff49ff8942fd0ea2120bc267bd102b2083f2b",
+    "sha256": "eba76242b3c58ef16ab11bd8a211ffd60b13f267591e89a439e92c0a25782f66",
+    "source_sha256": "5035b84ea3108cdc62b1a775632ff49ff8942fd0ea2120bc267bd102b2083f2b",
     "preview": "docs/previews/02-desert.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the earlier approved biome as a visual reference.",
     "palette_note": "Warm sand and bronze light are balanced by the teal sky and dark metal.",
     "reference": {
@@ -44,14 +46,15 @@
     "generation_date": "2026-09-11"
   },
   {
-    "file": "backgrounds/03-mediterranean.png",
+    "file": "backgrounds/03-mediterranean.webp",
     "title": "Mediterranean",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "7e651e444bbc0673b1fab87774fccd097c0b9b95e6181c431e18152009673b5a",
+    "sha256": "92e0418bccf1165ce045ac6cca956cfda5715d05114f74adab07d6f8acb87758",
+    "source_sha256": "7e651e444bbc0673b1fab87774fccd097c0b9b95e6181c431e18152009673b5a",
     "preview": "docs/previews/03-mediterranean.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the earlier approved biome as a visual reference.",
     "palette_note": "Sea blue, olive vegetation and warm limestone bridge the cool and warm biomes.",
     "reference": {
@@ -66,14 +69,15 @@
     "generation_date": "2026-09-11"
   },
   {
-    "file": "backgrounds/04-tundra.png",
+    "file": "backgrounds/04-tundra.webp",
     "title": "Tundra",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "50c122ae07650a1243734bca73a3ddcb6eea1dd43f05fcc341a34d2223cdfc98",
+    "sha256": "ef9d03f1d38d0cfc8edd4540147cfa66fa3d73692212eb21664e74412c76f57e",
+    "source_sha256": "50c122ae07650a1243734bca73a3ddcb6eea1dd43f05fcc341a34d2223cdfc98",
     "preview": "docs/previews/04-tundra.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the earlier approved biome as a visual reference.",
     "palette_note": "The coolest blue scene; ivory sunlight and bronze windows connect it to the accent.",
     "reference": {
@@ -88,14 +92,15 @@
     "generation_date": "2026-09-11"
   },
   {
-    "file": "backgrounds/05-swamp.png",
+    "file": "backgrounds/05-swamp.webp",
     "title": "Swamp",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "4ae61a20a945820f486ad8ad4c1a85e2a7b9980cca90ae2c1ccf84c2dd20393d",
+    "sha256": "bc39d72979f49d042784a228b5a1b27c7dbbd582058bfaca1516ac7aecbaba22",
+    "source_sha256": "4ae61a20a945820f486ad8ad4c1a85e2a7b9980cca90ae2c1ccf84c2dd20393d",
     "preview": "docs/previews/05-swamp.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the earlier approved biome as a visual reference.",
     "palette_note": "Muted sage and mist make this the quietest variation.",
     "reference": {
@@ -110,14 +115,15 @@
     "generation_date": "2026-09-11"
   },
   {
-    "file": "backgrounds/06-volcanic.png",
+    "file": "backgrounds/06-volcanic.webp",
     "title": "Volcanic",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "873d98e0cc6e26a13995878c90dde0da5a3dc919a8fa70e9493b809dc47af6a0",
+    "sha256": "6e28628f8dbc89b9717953d14b29b0901728bbe60d2581adf2d919801cc791ff",
+    "source_sha256": "873d98e0cc6e26a13995878c90dde0da5a3dc919a8fa70e9493b809dc47af6a0",
     "preview": "docs/previews/06-volcanic.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the earlier approved biome as a visual reference.",
     "palette_note": "The most distant palette: gray and lilac terrain, connected by teal metal, bronze and turquoise water.",
     "reference": {
@@ -132,14 +138,15 @@
     "generation_date": "2026-09-11"
   },
   {
-    "file": "backgrounds/07-steppe.png",
+    "file": "backgrounds/07-steppe.webp",
     "title": "Steppe",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "db065be6237ea7e8cc29c13ec735c1a9adbe77a357c1f17e09759a9e21fec62d",
+    "sha256": "c2d9cc0f150dd02f537493791839ddee3ff82f87c81f77db12ede135c235ce8a",
+    "source_sha256": "db065be6237ea7e8cc29c13ec735c1a9adbe77a357c1f17e09759a9e21fec62d",
     "preview": "docs/previews/07-steppe.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the earlier approved biome as a visual reference.",
     "palette_note": "Golden grass and late light make this one of the warmest variations.",
     "reference": {
@@ -154,14 +161,15 @@
     "generation_date": "2026-09-11"
   },
   {
-    "file": "backgrounds/08-tropical-archipelago.png",
+    "file": "backgrounds/08-tropical-archipelago.webp",
     "title": "Tropical archipelago",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "09353df8448a2125ce6431c3fe36ab34962d063ff28409cd91eaa9ac470ea46d",
+    "sha256": "5e97c06a200719e1d8939e729d44bec633493c0836bed52b19d97b13c6cac5b5",
+    "source_sha256": "09353df8448a2125ce6431c3fe36ab34962d063ff28409cd91eaa9ac470ea46d",
     "preview": "docs/previews/08-tropical-archipelago.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the earlier approved biome as a visual reference.",
     "palette_note": "Turquoise water and jungle greens retain the common weathered bronze architecture.",
     "reference": {
@@ -176,14 +184,15 @@
     "generation_date": "2026-09-11"
   },
   {
-    "file": "backgrounds/09-alpine.png",
+    "file": "backgrounds/09-alpine.webp",
     "title": "Alpine mountains",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "accf089843a1aec907e88848ab05b9180e45853ca6a7e272a60f7cd0a1b33d1f",
+    "sha256": "c01709a8f694ff6ac7dd5cbdb197ee4446e54985023ab4d525a3b3c466ed9be6",
+    "source_sha256": "accf089843a1aec907e88848ab05b9180e45853ca6a7e272a60f7cd0a1b33d1f",
     "preview": "docs/previews/09-alpine.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the earlier approved biome as a visual reference.",
     "palette_note": "Glacial blues, ivory snow and petroleum shadows retain the common bronze observatory.",
     "reference": {
@@ -198,14 +207,15 @@
     "generation_date": "2026-09-11"
   },
   {
-    "file": "backgrounds/10-rolling-hills.png",
+    "file": "backgrounds/10-rolling-hills.webp",
     "title": "Rolling hills",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "91e37023360479d566257b5d97652a578b4c3bc5e42d34bf9dca97bfb23f0263",
+    "sha256": "d61724ff6b5ad8ab069cbd80612f303e3333299cdb07e80ebc82a991a23d26e8",
+    "source_sha256": "91e37023360479d566257b5d97652a578b4c3bc5e42d34bf9dca97bfb23f0263",
     "preview": "docs/previews/10-rolling-hills.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the Mediterranean Outpost wallpaper as a style reference.",
     "palette_note": "Soft Tuscan and Oltrepo-inspired hills, ochre fields and muted sage vineyards connect to the bronze accent, ivory light and petroleum shadows.",
     "reference": {
@@ -226,12 +236,13 @@
     "requested_size": "3840x2160",
     "width": 3840,
     "height": 2160,
-    "sha256": "71c2123cd0341d17fac78c2f6df162fb4ac035f46d1dfbd319b0724ad3e300d5",
-    "file": "backgrounds/11-water-city.png",
+    "sha256": "258baca4388225335f2980759fceea8ab8fb8ef0fc2dc363bfee4669f0544e41",
+    "source_sha256": "71c2123cd0341d17fac78c2f6df162fb4ac035f46d1dfbd319b0724ad3e300d5",
+    "file": "backgrounds/11-water-city.webp",
     "title": "Water city",
     "preview": "docs/previews/11-water-city.jpg",
     "source": "OpenAI Image API",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "Artwork created for Outpost with OpenAI image generation.",
     "generation_date": "2026-09-11"
   },
@@ -241,24 +252,26 @@
     "requested_size": "3840x2160",
     "width": 3840,
     "height": 2160,
-    "sha256": "b9b698ba726758ba0753a0d1de258ef231583cdb06b6cc1d228352aa51bb61e2",
-    "file": "backgrounds/12-overgrown-ruins.png",
+    "sha256": "ce3949aefb447eaaf0d222c14d955fbe889d288d4fed707c7779161ddb593086",
+    "source_sha256": "b9b698ba726758ba0753a0d1de258ef231583cdb06b6cc1d228352aa51bb61e2",
+    "file": "backgrounds/12-overgrown-ruins.webp",
     "title": "Overgrown ruins",
     "preview": "docs/previews/12-overgrown-ruins.jpg",
     "source": "OpenAI Image API",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "Artwork created for Outpost with OpenAI image generation.",
     "generation_date": "2026-09-11"
   },
   {
-    "file": "backgrounds/13-forest-night.png",
+    "file": "backgrounds/13-forest-night.webp",
     "title": "Forest \u2014 Night",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "63eced2261f36b10a411efa7a625bfae15147b6237325a43f007296972864299",
+    "sha256": "947484ccee59848a0a1bead796100838533303f69ab9c3216d72da4d2012fe99",
+    "source_sha256": "63eced2261f36b10a411efa7a625bfae15147b6237325a43f007296972864299",
     "preview": "docs/previews/13-forest-night.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/01-forest.png",
@@ -281,14 +294,15 @@
     }
   },
   {
-    "file": "backgrounds/14-desert-night.png",
+    "file": "backgrounds/14-desert-night.webp",
     "title": "Desert \u2014 Night",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "310c2fd6520be69ddb89475b82e1c8213f3511b5369789ee773f924d9b63953d",
+    "sha256": "94aaf94778c347d50e32681301f7c846605a417ca99c6e6a801aad2a93e54f33",
+    "source_sha256": "310c2fd6520be69ddb89475b82e1c8213f3511b5369789ee773f924d9b63953d",
     "preview": "docs/previews/14-desert-night.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/02-desert.png",
@@ -311,14 +325,15 @@
     }
   },
   {
-    "file": "backgrounds/15-mediterranean-night.png",
+    "file": "backgrounds/15-mediterranean-night.webp",
     "title": "Mediterranean \u2014 Night",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "dc21e53a58757a26fe3b2fb6d4c0306dc954f727b0356edccd6cd02cb14b3cfc",
+    "sha256": "7ebd57e0b716fb6af1d4702e3c0197de0a51cefb0f00baf7ca0c18d8d7006d57",
+    "source_sha256": "dc21e53a58757a26fe3b2fb6d4c0306dc954f727b0356edccd6cd02cb14b3cfc",
     "preview": "docs/previews/15-mediterranean-night.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/03-mediterranean.png",
@@ -341,14 +356,15 @@
     }
   },
   {
-    "file": "backgrounds/16-tundra-night.png",
+    "file": "backgrounds/16-tundra-night.webp",
     "title": "Tundra \u2014 Night",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "87b34485cac81395ad31a51ca76436650bc62d4a8622e7b03753f51c756dbe6d",
+    "sha256": "829147b89dac2235c0951514fc3e05e68c0f39d8fe07cf6b73c7b5c17dca6c45",
+    "source_sha256": "87b34485cac81395ad31a51ca76436650bc62d4a8622e7b03753f51c756dbe6d",
     "preview": "docs/previews/16-tundra-night.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/04-tundra.png",
@@ -371,14 +387,15 @@
     }
   },
   {
-    "file": "backgrounds/17-swamp-night.png",
+    "file": "backgrounds/17-swamp-night.webp",
     "title": "Swamp \u2014 Night",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "59c9bdd052f55fb431361c03624385d713d54118649036e702b62dd69220c258",
+    "sha256": "2eaad815044af3c0a12243377b999342946815d13aee4bec793f26f644aa4f50",
+    "source_sha256": "59c9bdd052f55fb431361c03624385d713d54118649036e702b62dd69220c258",
     "preview": "docs/previews/17-swamp-night.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/05-swamp.png",
@@ -401,14 +418,15 @@
     }
   },
   {
-    "file": "backgrounds/18-volcanic-night.png",
+    "file": "backgrounds/18-volcanic-night.webp",
     "title": "Volcanic \u2014 Night",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "91e14c7bbc145e987a4a6ab8943fc8e29e487b77c3eac6411b6cdb5781cb65d7",
+    "sha256": "3f43e8113d1914ee1ab6ad14532b276e6d6bfdf8a5ae55c54e636d52cfd59819",
+    "source_sha256": "91e14c7bbc145e987a4a6ab8943fc8e29e487b77c3eac6411b6cdb5781cb65d7",
     "preview": "docs/previews/18-volcanic-night.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/06-volcanic.png",
@@ -431,14 +449,15 @@
     }
   },
   {
-    "file": "backgrounds/19-steppe-night.png",
+    "file": "backgrounds/19-steppe-night.webp",
     "title": "Steppe \u2014 Night",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "6ddbf5a04116c59bef287172605e471cd4f8e8edaf74edf870a08d95fe913b92",
+    "sha256": "bdc7fb3b8f037ed262d4c376814055c7c615ec9ae3c52f3d8f77bd3fd76d9d8e",
+    "source_sha256": "6ddbf5a04116c59bef287172605e471cd4f8e8edaf74edf870a08d95fe913b92",
     "preview": "docs/previews/19-steppe-night.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/07-steppe.png",
@@ -461,14 +480,15 @@
     }
   },
   {
-    "file": "backgrounds/20-tropical-archipelago-night.png",
+    "file": "backgrounds/20-tropical-archipelago-night.webp",
     "title": "Tropical archipelago \u2014 Night",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "7ecb5b0c0643078cc1afb14bf3d1e1cd31cb2fee01ef9623110c7dcb17ff4833",
+    "sha256": "e5dc203b24ecc3c43fe187b306b1544856917acf5abdb8ade31e513313641040",
+    "source_sha256": "7ecb5b0c0643078cc1afb14bf3d1e1cd31cb2fee01ef9623110c7dcb17ff4833",
     "preview": "docs/previews/20-tropical-archipelago-night.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/08-tropical-archipelago.png",
@@ -491,14 +511,15 @@
     }
   },
   {
-    "file": "backgrounds/21-alpine-night.png",
+    "file": "backgrounds/21-alpine-night.webp",
     "title": "Alpine mountains \u2014 Night",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "a98c8d3dc22c7ecdc43f4faf618f4724efe6cb87738e5d4a68c0e017c833e75a",
+    "sha256": "a14aea0ccb0a2f059745d82da7e47c1c16be52aec2325bae2befbe03c3ab4a5b",
+    "source_sha256": "a98c8d3dc22c7ecdc43f4faf618f4724efe6cb87738e5d4a68c0e017c833e75a",
     "preview": "docs/previews/21-alpine-night.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/09-alpine.png",
@@ -521,14 +542,15 @@
     }
   },
   {
-    "file": "backgrounds/22-rolling-hills-night.png",
+    "file": "backgrounds/22-rolling-hills-night.webp",
     "title": "Rolling hills \u2014 Night",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "3510c717c7a98f2033d193a53d6e391d5ed91f0467bbaa8021222fead4164dd5",
+    "sha256": "5e4324190b185ece04b2278c2f9a7be5f46b4394bf80bda219acbcca695c0cf3",
+    "source_sha256": "3510c717c7a98f2033d193a53d6e391d5ed91f0467bbaa8021222fead4164dd5",
     "preview": "docs/previews/22-rolling-hills-night.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/10-rolling-hills.png",
@@ -551,14 +573,15 @@
     }
   },
   {
-    "file": "backgrounds/23-water-city-night.png",
+    "file": "backgrounds/23-water-city-night.webp",
     "title": "Water city \u2014 Night",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "4a27dfa665e74e7e201f08b23a9d6ae5685fe52c33a01b65c64cd54571d824ae",
+    "sha256": "766638341ce61f9d2a05d96b326bf54437dff0329f20e435e2233e1645d7bf47",
+    "source_sha256": "4a27dfa665e74e7e201f08b23a9d6ae5685fe52c33a01b65c64cd54571d824ae",
     "preview": "docs/previews/23-water-city-night.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/11-water-city.png",
@@ -581,14 +604,15 @@
     }
   },
   {
-    "file": "backgrounds/24-overgrown-ruins-night.png",
+    "file": "backgrounds/24-overgrown-ruins-night.webp",
     "title": "Overgrown ruins \u2014 Night",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "8e9004c6f0900f0a4fff100e5923d6e52ebca5918e4d088c6a9d780623c891f4",
+    "sha256": "3939d68aec8fe0454d4f15ae51ca3089bf455461ea46c89898ce479400395117",
+    "source_sha256": "8e9004c6f0900f0a4fff100e5923d6e52ebca5918e4d088c6a9d780623c891f4",
     "preview": "docs/previews/24-overgrown-ruins-night.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/12-overgrown-ruins.png",
@@ -611,14 +635,15 @@
     }
   },
   {
-    "file": "backgrounds/25-forest-dawn.png",
+    "file": "backgrounds/25-forest-dawn.webp",
     "title": "Forest \u2014 Dawn",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "c78f56b448b3a4e33600838156b82753dd5f315adb3e568cb326b648c4a79338",
+    "sha256": "d3e330592ade1b792b090c5cf12566b755cca6869ab7c76feafb5fdd233dfbb8",
+    "source_sha256": "c78f56b448b3a4e33600838156b82753dd5f315adb3e568cb326b648c4a79338",
     "preview": "docs/previews/25-forest-dawn.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/01-forest.png",
@@ -634,14 +659,15 @@
     "prompt_file": "docs/prompts/25-forest-dawn.txt"
   },
   {
-    "file": "backgrounds/26-desert-sunset.png",
+    "file": "backgrounds/26-desert-sunset.webp",
     "title": "Desert \u2014 Sunset",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "92bec03430ee914224ec77e37d1df59046607b5eb1294579003291e83faf1772",
+    "sha256": "cc4338b0aed3fe89d34adab274bca39ffb55cd85832684221b8e566e9bb7fcef",
+    "source_sha256": "92bec03430ee914224ec77e37d1df59046607b5eb1294579003291e83faf1772",
     "preview": "docs/previews/26-desert-sunset.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/02-desert.png",
@@ -657,14 +683,15 @@
     "prompt_file": "docs/prompts/26-desert-sunset.txt"
   },
   {
-    "file": "backgrounds/27-mediterranean-sunset.png",
+    "file": "backgrounds/27-mediterranean-sunset.webp",
     "title": "Mediterranean \u2014 Sunset",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "b047dfef81bf495c735bd7aeffb8df5ba9fd2c67f647dd719929224a3e0f6466",
+    "sha256": "38f22417f15d6b771fc844cfc4ef9ab5ec545767b91177ef779507c940d6daef",
+    "source_sha256": "b047dfef81bf495c735bd7aeffb8df5ba9fd2c67f647dd719929224a3e0f6466",
     "preview": "docs/previews/27-mediterranean-sunset.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/03-mediterranean.png",
@@ -680,14 +707,15 @@
     "prompt_file": "docs/prompts/27-mediterranean-sunset.txt"
   },
   {
-    "file": "backgrounds/28-tundra-dawn.png",
+    "file": "backgrounds/28-tundra-dawn.webp",
     "title": "Tundra \u2014 Dawn",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "9766ab6200839ee8b531d7d0f80ba7ef8ee004ad2775b21b4b633e29f629a684",
+    "sha256": "3b5aa2024a7f2697ea67f3f3d6d44463ec81dd4840dafaa689c898d05c0d426a",
+    "source_sha256": "9766ab6200839ee8b531d7d0f80ba7ef8ee004ad2775b21b4b633e29f629a684",
     "preview": "docs/previews/28-tundra-dawn.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/04-tundra.png",
@@ -703,14 +731,15 @@
     "prompt_file": "docs/prompts/28-tundra-dawn.txt"
   },
   {
-    "file": "backgrounds/29-swamp-dawn.png",
+    "file": "backgrounds/29-swamp-dawn.webp",
     "title": "Swamp \u2014 Dawn",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "fb6331461f1879a2e210d24b7e677b15117a92c9b8828a70d64d008cf2182208",
+    "sha256": "a83e924f75ebdbfbf990f9c44040c77eadb3636f92dfe37ba49888217c781727",
+    "source_sha256": "fb6331461f1879a2e210d24b7e677b15117a92c9b8828a70d64d008cf2182208",
     "preview": "docs/previews/29-swamp-dawn.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/05-swamp.png",
@@ -726,14 +755,15 @@
     "prompt_file": "docs/prompts/29-swamp-dawn.txt"
   },
   {
-    "file": "backgrounds/30-volcanic-dawn.png",
+    "file": "backgrounds/30-volcanic-dawn.webp",
     "title": "Volcanic \u2014 Dawn",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "4442451506030bdc4f1bbd488ac493b9a274bc549d1659276ad5ae1d0e4cdeda",
+    "sha256": "2ad8ee026d8522aee83c87a4aa030a96b2bbf2fa8b5f25ff19ef44faff164695",
+    "source_sha256": "4442451506030bdc4f1bbd488ac493b9a274bc549d1659276ad5ae1d0e4cdeda",
     "preview": "docs/previews/30-volcanic-dawn.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/06-volcanic.png",
@@ -749,14 +779,15 @@
     "prompt_file": "docs/prompts/30-volcanic-dawn.txt"
   },
   {
-    "file": "backgrounds/31-steppe-sunset.png",
+    "file": "backgrounds/31-steppe-sunset.webp",
     "title": "Steppe \u2014 Sunset",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "7af8901f6d2628f44b77b9b94206ec97d116045a2eff1f326e8030a4df56d276",
+    "sha256": "eef2e1fb2bbff4e07b1c329e4952d3dd236addd9a164833c9363fc1e1436141a",
+    "source_sha256": "7af8901f6d2628f44b77b9b94206ec97d116045a2eff1f326e8030a4df56d276",
     "preview": "docs/previews/31-steppe-sunset.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/07-steppe.png",
@@ -772,14 +803,15 @@
     "prompt_file": "docs/prompts/31-steppe-sunset.txt"
   },
   {
-    "file": "backgrounds/32-tropical-archipelago-sunset.png",
+    "file": "backgrounds/32-tropical-archipelago-sunset.webp",
     "title": "Tropical archipelago \u2014 Sunset",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "5049fa68beec339c7cd9c3ccc952a30dec8b72cb4f74891eed45160279df695c",
+    "sha256": "2cc9672579abda8b3c08c55baea06a5ce418adcbe77cd916c42bcfbe9f581f8b",
+    "source_sha256": "5049fa68beec339c7cd9c3ccc952a30dec8b72cb4f74891eed45160279df695c",
     "preview": "docs/previews/32-tropical-archipelago-sunset.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/08-tropical-archipelago.png",
@@ -795,14 +827,15 @@
     "prompt_file": "docs/prompts/32-tropical-archipelago-sunset.txt"
   },
   {
-    "file": "backgrounds/33-alpine-dawn.png",
+    "file": "backgrounds/33-alpine-dawn.webp",
     "title": "Alpine mountains \u2014 Dawn",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "31682070a5da4cd88845cf93a15291cddf927eecae49643e904b138f05ee6f38",
+    "sha256": "29f792d3b1dc8c7ebe1f025400d71236cd2fecc9d165fedebbad07cd8133bedc",
+    "source_sha256": "31682070a5da4cd88845cf93a15291cddf927eecae49643e904b138f05ee6f38",
     "preview": "docs/previews/33-alpine-dawn.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/09-alpine.png",
@@ -818,14 +851,15 @@
     "prompt_file": "docs/prompts/33-alpine-dawn.txt"
   },
   {
-    "file": "backgrounds/34-rolling-hills-sunset.png",
+    "file": "backgrounds/34-rolling-hills-sunset.webp",
     "title": "Rolling hills \u2014 Sunset",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "3520c4e11939d5064f9b182ef700a9fa0d785a044622b71200de5df2487a5f78",
+    "sha256": "7665b1b09e3e04186cdc368bc95ab515e5f6d32f079ad7d3838beb9b875a30b3",
+    "source_sha256": "3520c4e11939d5064f9b182ef700a9fa0d785a044622b71200de5df2487a5f78",
     "preview": "docs/previews/34-rolling-hills-sunset.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/10-rolling-hills.png",
@@ -841,14 +875,15 @@
     "prompt_file": "docs/prompts/34-rolling-hills-sunset.txt"
   },
   {
-    "file": "backgrounds/35-water-city-sunset.png",
+    "file": "backgrounds/35-water-city-sunset.webp",
     "title": "Water city \u2014 Sunset",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "aa4aeffa783d296faecfeaeb62dbd2f20bfb27e1f8f7bf91a5c954bd9cac1d6e",
+    "sha256": "53e8cfd00de301a23ad4d4584a8118195c946f19935befee2afe2628f15cd296",
+    "source_sha256": "aa4aeffa783d296faecfeaeb62dbd2f20bfb27e1f8f7bf91a5c954bd9cac1d6e",
     "preview": "docs/previews/35-water-city-sunset.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/11-water-city.png",
@@ -864,14 +899,15 @@
     "prompt_file": "docs/prompts/35-water-city-sunset.txt"
   },
   {
-    "file": "backgrounds/36-overgrown-ruins-dawn.png",
+    "file": "backgrounds/36-overgrown-ruins-dawn.webp",
     "title": "Overgrown ruins \u2014 Dawn",
     "source": "OpenAI Image API",
     "width": 3840,
     "height": 2160,
-    "sha256": "cfb41b68e354b1cc3c48b08b091bc57cbe61305480f0e065137d8d19e505c5a7",
+    "sha256": "b34b7d3c7b2153f2ce75a803f0033edc8d10e54c662e17791da2926b12a63df3",
+    "source_sha256": "cfb41b68e354b1cc3c48b08b091bc57cbe61305480f0e065137d8d19e505c5a7",
     "preview": "docs/previews/36-overgrown-ruins-dawn.jpg",
-    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring.",
+    "processing": "PNG returned directly by the Image API at 3840 \u00d7 2160. No post-generation resizing, cropping or recoloring. Distributed as WebP re-encoded from that PNG with `magick -strip -quality 82`; source_sha256 is the original PNG.",
     "credit": "AI-generated with gpt-image-2 using the corresponding original Outpost wallpaper as a visual reference.",
     "reference": {
       "file": "backgrounds/12-overgrown-ruins.png",
